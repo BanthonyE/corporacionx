@@ -39,7 +39,7 @@
     </div>
     <div class="container">
       <div class="row w-100">
-        <div class="col-md-5"><a class="navbar-brand" href="index.html"> <img src="assets\imgs\logo.png" alt="" title="" class="img-fluid"> </a> </div>
+        <div class="col-md-5"><a class="navbar-brand" href="{{ route('index') }}"> <img src="assets\imgs\logo.png" alt="" title="" class="img-fluid"> </a> </div>
         <div class="col-md-7">
           <div class="row">
             <div class="col-md-9 p-0 top-css">
@@ -62,25 +62,25 @@
         <div class="collapse navbar-collapse" id="navbarResponsive">
           <ul class="navbar-nav">
             <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle active" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Home </a>
-              <div class="dropdown-menu"> <a href="{{ route('index') }}" class="dropdown-item">Home v1</a> <a href="{{ route('index-2') }}" class="dropdown-item">Home v2</a> <a href="{{ route('index-3') }}" class="dropdown-item">Home v3</a> <a href="../template-onepage/index.html" class="dropdown-item">Home One Page</a> </div>
+              <div class="dropdown-menu"> <a href="{{ route('index') }}" class="dropdown-item">Home v1</a> <a href="{{ route('index-2') }}" class="dropdown-item">Home v2</a> <a href="{{ route('index-3') }}" class="dropdown-item">Home v3</a></div>
             </li>
             <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> About </a>
-              <div class="dropdown-menu"><a href="{{route('services-2')}}" class="dropdown-item">About Us</a> <a href="{{ route('service-details') }}" class="dropdown-item"> About Us V2</a> </div>
+              <div class="dropdown-menu"><a href="{{route('about')}}" class="dropdown-item">About Us</a> <a href="{{ route('about-2') }}" class="dropdown-item"> About Us V2</a> </div>
             </li>
             <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Services </a>
               <div class="dropdown-menu"> <a href="{{ route('services') }}" class="dropdown-item">Services</a> <a href="{{ route('services-2') }}" class="dropdown-item">Services V2</a> <a href="{{ route('service-details') }}" class="dropdown-item">Services Details</a> </div>
             </li>
             <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Projects </a>
-              <div class="dropdown-menu"> <a class="dropdown-item" href="projects.html">Projects</a> <a class="dropdown-item" href="projects-2.html">Projects V2</a> <a class="dropdown-item" href="projects-lightbox.html">Projects Lighbox</a> <a class="dropdown-item" href="projects-lightbox-description.html">Projects Lighbox Description</a> <a class="dropdown-item" href="project-details.html">Projects Details</a> </div>
+              <div class="dropdown-menu"> <a class="dropdown-item" href="{{ route('projects') }}">Projects</a> <a class="dropdown-item" href="{{ route('projects-2') }}">Projects V2</a> <a class="dropdown-item" href="{{ route('projects-lightbox') }}">Projects Lighbox</a> <a class="dropdown-item" href="{{ route('projects-lightbox-description') }}">Projects Lighbox Description</a> <a class="dropdown-item" href="{{ route('project-details') }}">Projects Details</a> </div>
             </li>
             <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Pages </a>
-              <div class="dropdown-menu"> <a href="{{ route('coming-soon') }}" class="dropdown-item">Coming Soon</a> <a href="page-not-found.html" class="dropdown-item">Page Not Found</a> <a href="faq.html" class="dropdown-item">FAQ</a> <a href="privacy.html" class="dropdown-item">Privacy</a> <a href="support.html" class="dropdown-item">Support</a> </div>
+              <div class="dropdown-menu"> <a href="{{ route('coming-soon') }}" class="dropdown-item">Coming Soon</a> <a href="{{ route('page-not-found') }}" class="dropdown-item">Page Not Found</a> <a href="{{ route('faq') }}" class="dropdown-item">FAQ</a> <a href="{{ route('privacy') }}" class="dropdown-item">Privacy</a> <a href="{{ route('support') }}" class="dropdown-item">Support</a> </div>
             </li>
             <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Blog </a>
-              <div class="dropdown-menu"> <a class="dropdown-item" href="{{ route('blogs') }}">Blogs</a> <a class="dropdown-item" href="blogs-grid-1.html">Blogs Grid</a> <a class="dropdown-item" href="blogs-grid-2.html">Blogs Grid V2</a> <a class="dropdown-item" href="blogs-3.html">Blogs Left Sidebar</a> <a class="dropdown-item" href="blog-details.html">Blog Details</a> <a class="dropdown-item" href="blog-details-2.html">Blog Details Left Sidebar</a> </div>
+              <div class="dropdown-menu"> <a class="dropdown-item" href="{{ route('blogs') }}">Blogs</a> <a class="dropdown-item" href="{{ route('blogs-grid-1') }}">Blogs Grid</a> <a class="dropdown-item" href="{{ route('blogs-grid-2') }}">Blogs Grid V2</a> <a class="dropdown-item" href="{{ route('blogs-3') }}">Blogs Left Sidebar</a> <a class="dropdown-item" href="{{ route('blog-details') }}">Blog Details</a> <a class="dropdown-item" href="{{ route('blog-details-2') }}">Blog Details Left Sidebar</a> </div>
             </li>
             <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Contact Us </a>
-              <div class="dropdown-menu"> <a class="dropdown-item" href="{{ route('contact') }}">Contact Us 1</a> <a class="dropdown-item" href="contact-2.html">Contact Us 2</a> </div>
+              <div class="dropdown-menu"> <a class="dropdown-item" href="{{ route('contact') }}">Contact Us 1</a> <a class="dropdown-item" href="{{ route('contact-2') }}">Contact Us 2</a> </div>
             </li>
           </ul>
         </div>
@@ -180,7 +180,7 @@
             </div>
           </div>
         </div>
-        <div class="text-center w-100 col"><a href="services.html" class="btn btn-primary btn-css d-inline-block"> View All Services </a></div>
+        <div class="text-center w-100 col"><a href="{{ route('services') }}" class="btn btn-primary btn-css d-inline-block"> View All Services </a></div>
       </div>
     </div>
   </div>
@@ -233,7 +233,7 @@
       </div>
     </div>
     <div class="container-fluid pt-5 pb-5">
-      <div class="text-center w-100 col"><a href="projects.html" class="btn btn-primary btn-css d-inline-block font-weight-bold">View All Projects</a></div>
+      <div class="text-center w-100 col"><a href="{{ route('projects') }}" class="btn btn-primary btn-css d-inline-block font-weight-bold">View All Projects</a></div>
     </div>
   </section>
   <div class="about-us">
@@ -331,7 +331,7 @@
               <img src="assets\imgs\home2\news\img-1.jpg" alt="" title="" class="img-fluid w-100"></div>
             <h2>Nulla vehicula magna maximus.</h2>
             <p>Nam tincidunt imperdiet consectet lobort lorem tristique vel. Proin rhoncus augue dui, vel pretium massa efficitur eu.</p>
-            <a href="">Read More <i class="fa fa-angle-right"></i></a></div>
+            <a href="{{ route('blog-details') }}">Read More <i class="fa fa-angle-right"></i></a></div>
         </div>
         <div class="itme">
           <div class="news-boder">
@@ -340,7 +340,7 @@
               <img src="assets\imgs\home2\news\img-2.jpg" class="img-fluid w-100" alt="" title=""> </div>
             <h2>Nulla vehicula magna maximus.</h2>
             <p>Nam tincidunt imperdiet consectet lobort lorem tristique vel. Proin rhoncus augue dui, vel pretium massa efficitur eu.</p>
-            <a href="">Read More <i class="fa fa-angle-right"></i></a></div>
+            <a href="{{ route('blog-details') }}">Read More <i class="fa fa-angle-right"></i></a></div>
         </div>
         <div class="itme">
           <div class="news-boder">
@@ -349,7 +349,7 @@
               <img src="assets\imgs\home2\news\img-3.jpg" class="img-fluid w-100" alt="" title=""> </div>
             <h2>Nulla vehicula magna maximus.</h2>
             <p>Nam tincidunt imperdiet consectet lobort lorem tristique vel. Proin rhoncus augue dui, vel pretium massa efficitur eu.</p>
-            <a href="">Read More <i class="fa fa-angle-right"></i></a></div>
+            <a href="{{ route('blog-details') }}">Read More <i class="fa fa-angle-right"></i></a></div>
         </div>
         <div class="itme">
           <div class="news-boder">
@@ -358,7 +358,7 @@
               <img src="assets\imgs\home2\news\img-4.jpg" class="img-fluid w-100" alt="" title=""></div>
             <h2>Nulla vehicula magna maximus.</h2>
             <p>Nam tincidunt imperdiet consectet lobort lorem tristique vel. Proin rhoncus augue dui, vel pretium massa efficitur eu.</p>
-            <a href="">Read More <i class="fa fa-angle-right"></i></a></div>
+            <a href="{{ route('blog-details') }}">Read More <i class="fa fa-angle-right"></i></a></div>
         </div>
       </div>
     </div>
@@ -420,19 +420,19 @@
       <div class="col-lg-2 col-md-6">
         <h3>Our Services</h3>
         <ul>
-          <li><a href=""><i class="fas fa-angle-right"></i> Contracting</a></li>
-          <li><a href=""><i class="fas fa-angle-right"></i> Construction </a></li>
-          <li><a href=""><i class="fas fa-angle-right"></i> Repairment </a></li>
-          <li><a href=""><i class="fas fa-angle-right"></i> Safety</a></li>
+          <li><a href="{{ route('service-details') }}"><i class="fas fa-angle-right"></i> Contracting</a></li>
+          <li><a href="{{ route('service-details') }}"><i class="fas fa-angle-right"></i> Construction </a></li>
+          <li><a href="{{ route('service-details') }}"><i class="fas fa-angle-right"></i> Repairment </a></li>
+          <li><a href="{{ route('service-details') }}"><i class="fas fa-angle-right"></i> Safety</a></li>
         </ul>
       </div>
       <div class="col-lg-3 col-md-6">
         <h3>Pages</h3>
         <ul>
-          <li><a href="faq.html"><i class="fas fa-angle-right"></i> FAQ</a></li>
-          <li><a href="privacy.html"><i class="fas fa-angle-right"></i> Privacy Policy</a></li>
-          <li><a href="support.html"><i class="fas fa-angle-right"></i> Terms & Conditions</a></li>
-          <li><a href="contact.html"><i class="fas fa-angle-right"></i> Contact us</a></li>
+          <li><a href="{{ route('faq') }}"><i class="fas fa-angle-right"></i> FAQ</a></li>
+          <li><a href="{{ route('privacy') }}"><i class="fas fa-angle-right"></i> Privacy Policy</a></li>
+          <li><a href="{{ route('support') }}"><i class="fas fa-angle-right"></i> Terms & Conditions</a></li>
+          <li><a href="{{ route('contact') }}"><i class="fas fa-angle-right"></i> Contact us</a></li>
         </ul>
       </div>
       <div class="col-lg-3 col-md-6">
@@ -455,7 +455,7 @@
     <div class="container ">
       <div class="row">
         <div class="col-md-12">
-          <p>© 2020 <a href="">Architevo Builder</a> All Rights Reserved.</p>
+          <p>© 2020 <a href="{{ route('index') }}">Architevo Builder</a> All Rights Reserved.</p>
         </div>
       </div>
     </div>

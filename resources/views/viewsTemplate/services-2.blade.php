@@ -1,194 +1,4 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-<!-- Head-->
-<head>
-<meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="description" content="">
-<meta name="author" content="">
-<title>Architevo Builder : Construction Services</title>
-<!-- Template CSS -->
-<link href="assets\css\default.css" rel="stylesheet">
-</head>
-<!-- //  Head-->
-<body>
-<!--header -->
-<div class="top-header">
-  <div class="container">
-    <div class="pull-left"><a href="index.html" title="Home"><img src="assets\imgs\logo.png" class="logo1" title="" alt=""> </a></div>
-    <div class="pull-right">
-      <div class="top-menu">
-        <ul>
-          <li><a href="support.html">Support</a></li>
-          <li class="saperator">|</li>
-          <li><a href="privacy.html">Privacy</a></li>
-          <li class="saperator">|</li>
-          <li><a href="faq.html">FAQ</a></li>
-          <li class="saperator">|</li>
-          <li><a href="contact.html">Contact us</a></li>
-        </ul>
-      </div>
-      <div class="clearfix"></div>
-      <div class="top-search-div">
-        <div class="top-social">
-          <ul>
-            <li>
-              <div class="hvr-sweep-to-right"><a href="https://www.facebook.com/srgit/" title="" target="_blank"><i class="fa fa-facebook"></i></a></div>
-            </li>
-            <li>
-              <div class="hvr-sweep-to-right"><a href="https://twitter.com/srgit" title="" target="_blank"><i class="fa fa-twitter"></i></a></div>
-            </li>
-            <li>
-              <div class="hvr-sweep-to-right"><a href="http://srgit.tumblr.com/" title="" target="_blank"><i class="fa fa-tumblr"></i></a></div>
-            </li>
-            <li>
-              <div class="hvr-sweep-to-right"><a href="https://www.linkedin.com/company/srgit" title="" target="_blank"><i class="fa fa-linkedin"></i></a></div>
-            </li>
-            <li>
-              <div class="hvr-sweep-to-right"><a href="https://www.instagram.com/srgit/" title="" target="_blank"><i class="fa fa-instagram"></i></a></div>
-            </li>
-            <li>
-              <div class="hvr-sweep-to-right"><a href="https://in.pinterest.com/srgit/" title="" target="_blank"><i class="fa fa-pinterest"></i></a></div>
-            </li>
-          </ul>
-        </div>
-        <div class="top-search top-s">
-          <input type="text" placeholder="Search">
-          <input type="submit" class="search" value="">
-        </div>
-      </div>
-    </div>
-  </div>
-  <div class="clearfix"></div>
-</div>
-<!--\\ header --> 
-
-
-<div id="myModal3" class="modal fade" tabindex="-1" role="dialog">
-  <div class="modal-dialog"> 
-    <!-- Modal content-->
-    <div class="modal-content">
-      <div class="modal-header">
-        <button type="button" class="close" data-dismiss="modal">&times;</button>
-      </div>
-      <div class="modal-body bgcolor">
-        <div>
-          <div class="col-xs-12 col-md-12 right-section form-sec">
-            <div class="page-subheader">
-              <h2 class="text-dark">request a quote</h2>
-            </div>
-            <div class="border"></div>
-            <div class="description">
-              <p> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur.</p>
-            </div>
-            <form action="/" method="post" id="requestForm">
-              <div class="form-group no-margin">
-                <div class="controls col-xs-6 no-padding-left">
-                  <input class="form-control input" placeholder="Name" name="name" id="name" type="text">
-                </div>
-                <div class="controls col-xs-6 no-padding-right">
-                  <input class="form-control input" placeholder="Email" name="email" id="email" type="text">
-                </div>
-                <div class="clearfix"></div>
-              </div>
-              <div class="form-group no-margin">
-                <div class="controls col-xs-6 no-padding-left">
-                  <input class="form-control input" placeholder="Service Type" name="service_type" id="service_type" type="text">
-                </div>
-                <div class="controls col-xs-6 no-padding-right">
-                  <input class="form-control input" placeholder="Contact no." name="contact_no" id="contact_no" type="text">
-                </div>
-                <div class="clearfix"></div>
-              </div>
-              <div class="form-group no-margin">
-                <div class="controls">
-                  <textarea class="form-control textarea" placeholder="Message" name="message" id="message"></textarea>
-                </div>
-              </div>
-              <div class="form-group">
-                <input value="SUBMIT" onclick="return ajaxmailrequest();" class="btn btn-clear" type="button">
-                <!--<button class="btn btn-clear">SUBMIT</button>-->
-                <button class="btn btn-clear blue-btn">Reset</button>
-                <div class="loader2"></div>
-              </div>
-            </form>
-          </div>
-        </div>
-        <div class="clearfix"></div>
-      </div>
-    </div>
-  </div>
-</div>
-
-
-
-
-
-<!-- Navigation -->
-<nav class="navbar fixed-top  navbar-default navbar-custom">
-  <div class="parallelogram-container">
-    <div class="parallelogram"></div>
-  </div>
-  <div class="container">
-    <div class="container-fluid no-padding"> 
-      <!-- Brand and toggle get grouped for better mobile display -->
-      <div class="navbar-header page-scroll">
-        <div class="top-search-div search-div search-div-2">
-          <div class="top-search top-search-2">
-            <input type="text" placeholder="Search">
-            <input type="submit" class="search" value="">
-          </div>
-        </div>
-        <div class="pull-left fixed-menu-logo-2"><a href="index.html" title="Home"><img src="assets\imgs\responsive-logo-2.png" alt=""></a> </div>
-        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <i class="fa fa-bars"></i></button>
-      </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-        <div class="pull-left fixed-menu-logo"><a href="index.html" title="Home"><img src="assets\imgs\responsive-logo.png" alt=""></a> </div>
-        <nav class="navbar navbar-expand-sm navbar-left">
-          <ul class="nav navbar-nav">
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Home </a>
-              <div class="dropdown-menu"> <a href="index.html" class="dropdown-item">Home v1</a>
-<a href="index-2.html" class="dropdown-item">Home v2</a>
-<a href="index-3.html" class="dropdown-item">Home v3</a> <a href="../template-onepage/index.html" class="dropdown-item">Home One Page</a> </div>
-            </li>
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> About </a>
-              <div class="dropdown-menu"> <a href="about.html" class="nav-link">About Us</a> <a href="about-2.html" class="nav-link">About Us V2</a> </div>
-            </li>
-            <li class="nav-item dropdown active"> 
-			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Services </a>
-              <div class="dropdown-menu"> <a href="services.html" class="dropdown-item">Services</a> <a href="services-2.html" class="dropdown-item">Services V2</a> <a href="service-details.html" class="dropdown-item">Services Details</a> </div>
-            </li>
-            <li class="nav-item dropdown"> 
-			<a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Projects </a>
-              <div class="dropdown-menu">
-			  <a class="dropdown-item" href="projects.html">Projects</a> 
-			  <a class="dropdown-item" href="projects-2.html">Projects V2</a> 
-			  <a class="dropdown-item" href="projects-lightbox.html">Projects Lighbox</a>
-<a class="dropdown-item" href="projects-lightbox-description.html">Projects Lighbox Description</a>
-<a class="dropdown-item" href="project-details.html">Projects Details</a> </div>
-            </li>
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Pages </a>
-              <div class="dropdown-menu"> <a href="coming-soon.html" class="dropdown-item">Coming Soon</a> <a href="page-not-found.html" class="dropdown-item">Page Not Found</a> <a href="faq.html" class="dropdown-item">FAQ</a> <a href="privacy.html" class="dropdown-item">Privacy</a> <a href="support.html" class="dropdown-item">Support</a> </div>
-            </li>
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Blog </a>
-              <div class="dropdown-menu"> <a class="dropdown-item" href="blogs.html">Blogs</a> <a class="dropdown-item" href="blogs-grid-1.html">Blogs Grid</a> <a class="dropdown-item" href="blogs-grid-2.html">Blogs Grid V2</a> <a class="dropdown-item" href="blogs-3.html">Blogs Left Sidebar</a> <a class="dropdown-item" href="blog-details.html">Blog Details</a> <a class="dropdown-item" href="blog-details-2.html">Blog Details Left Sidebar</a> </div>
-            </li>
-            <li class="nav-item dropdown"> <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false"> Contact Us </a>
-              <div class="dropdown-menu"> <a class="dropdown-item" href="contact.html">Contact Us 1</a> <a class="dropdown-item" href="contact-2.html">Contact Us 2</a> </div>
-            </li>
-            <li class="on-mob"><a href="" data-toggle="modal" data-target="#myModal3">Quote Now</a></li>
-            </ul>
-        </nav>
-        <div class="pull-right quote-now"> <a href="" data-toggle="modal" data-target="#myModal3">Quote Now <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a> </div>
-        <div class="clearfix"></div>
-      </div>
-      <!-- /.navbar-collapse --> 
-    </div>
-  </div>
-</nav>
-<!--\\ Navigation --> 
+﻿
 <!-- Inner Header -->
 <div class="inner-header">
   <div class="pattern"></div>
@@ -201,163 +11,161 @@
           <img src="assets\imgs\linew.png" alt="">
           <ol class="breadcrumb">
             <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-            <li class="active">Our Services</li>
+            <li class="active">Our Services V2s</li>
           </ol>
         </div>
       </div>
     </div>
   </div>
 </div>
-<!--\\ Inner Header --> 
+
 <!-- Content Section -->
 <div class="content-section services-main">
+  <h2 class="text-center text-uppercase">Our <span class="orange-txt">Services</span></h2>
+  <div class="border-creative text-center"><img src="assets\imgs\borders\border.png" alt=""></div>
   <div class="container">
-    <h2 class="text-center text-uppercase">Construction <span class="orange-txt">SERVICES</span></h2>
-    <div class="border-creative text-center"><img src="assets\imgs\borders\border.png" alt=""></div>
-    <div class="row">
-      <div class="grid-2">
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <figure class="effect-jazz"> <img src="assets\imgs\tab\tab.jpg" class="img-fluid" alt="img25">
-            <figcaption>
-              <h2><span>Service</span> Name</h2>
-              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus</p>
-              <a href="service-details.html">View more</a> </figcaption>
-          </figure>
-          <a href="service-details.html" class="view-detail montserrat">VIEW DETAIL <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <figure class="effect-jazz"> <img src="assets\imgs\tab\tab-2.jpg" class="img-fluid" alt="img25">
-            <figcaption>
-              <h2><span>Service</span> Name</h2>
-              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus</p>
-              <a href="service-details.html">View more</a> </figcaption>
-          </figure>
-          <a href="service-details.html" class="view-detail montserrat">VIEW DETAIL <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <figure class="effect-jazz"> <img src="assets\imgs\tab\tab-3.jpg" class="img-fluid" alt="img25">
-            <figcaption>
-              <h2><span>Service</span> Name</h2>
-              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus</p>
-              <a href="service-details.html">View more</a> </figcaption>
-          </figure>
-          <a href="service-details.html" class="view-detail montserrat">VIEW DETAIL <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <figure class="effect-jazz"> <img src="assets\imgs\tab\tab-4.jpg" class="img-fluid" alt="img25">
-            <figcaption>
-              <h2><span>Service</span> Name</h2>
-              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus</p>
-              <a href="service-details.html">View more</a> </figcaption>
-          </figure>
-          <a href="service-details.html" class="view-detail montserrat">VIEW DETAIL <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <figure class="effect-jazz"> <img src="assets\imgs\tab\tab-5.jpg" class="img-fluid" alt="img25">
-            <figcaption>
-              <h2><span>Service</span> Name</h2>
-              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus</p>
-              <a href="service-details.html">View more</a> </figcaption>
-          </figure>
-          <a href="service-details.html" class="view-detail montserrat">VIEW DETAIL <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </div>
-        <div class="col-lg-4 col-md-6 col-sm-6">
-          <figure class="effect-jazz"> <img src="assets\imgs\tab\tab-6.jpg" class="img-fluid" alt="img25">
-            <figcaption>
-              <h2><span>Service</span> Name</h2>
-              <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus</p>
-              <a href="service-details.html">View more</a> </figcaption>
-          </figure>
-          <a href="service-details.html" class="view-detail montserrat">VIEW DETAIL <i class="fa fa-long-arrow-right" aria-hidden="true"></i></a> </div>
-        <div class="clearfix"></div>
+    <div class="row" id="what-we-do">
+      <div class="col-md-4 col-sm-6"> <i class="icon-Notepad"></i>
+        <h3>Contracting</h3>
+        <p>Architevo Builder is a clean, modern, and fully responsive HTML5 Template. It designed for construction company, Electric works, Repairing works, Home meaking.</p>
+      </div>
+      <div class="col-md-4 col-sm-6"> <i class="icon-Barricade"></i>
+        <h3>Construction</h3>
+        <p>Architevo Builder is a clean, modern, and fully responsive HTML5 Template. It designed for construction company, Electric works, Repairing works, Home meaking.</p>
+      </div>
+      <div class="col-md-4 col-sm-6"> <i class="icon-Plaster"></i>
+        <h3>Repairment</h3>
+        <p>Architevo Builder is a clean, modern, and fully responsive HTML5 Template. It designed for construction company, Electric works, Repairing works, Home meaking.</p>
+      </div>
+      <div class="col-md-4 col-sm-6"> <i class="icon-Home-5"></i>
+        <h3>Home Making</h3>
+        <p>Architevo Builder is a clean, modern, and fully responsive HTML5 Template. It designed for construction company, Electric works, Repairing works, Home meaking.</p>
+      </div>
+      <div class="col-md-4 col-sm-6"> <i class="icon-Green-Energy"></i>
+        <h3>Electric works</h3>
+        <p>Architevo Builder is a clean, modern, and fully responsive HTML5 Template. It designed for construction company, Electric works, Repairing works, Home meaking.</p>
+      </div>
+      <div class="col-md-4 col-sm-6"> <i class="icon-Pantone"></i>
+        <h3>Other services</h3>
+        <p>Architevo Builder is a clean, modern, and fully responsive HTML5 Template. It designed for construction company, Electric works, Repairing works, Home meaking.</p>
       </div>
     </div>
-    <div class="clearfix"></div>
-  </div>
-  <div class="row-2 pos-relative"> <span class="hotspot quote-hotspot" id="quote-now"></span>
-    <div class="container">
-      <div class="col-lg-6 col-md-12 info left-section bg-blue">
-        <div class="page-subheader">
-          <h2>We're here to help you</h2>
-        </div>
-        <div class="border"></div>
-        <div class="description"> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.Neque porro quisquam est qui dolorem ipsum quia dolor.</div>
-        <div class="call-on">
-          <div class="col-xs-6 no-padding">
-            <div class="col-xs-2 no-padding-left"><span class="round-border"><i class="icon-flat flaticon-phone-call"></i></span></div>
-            <div class="col-xs-9">
-              <p>Call us on<br>
-                800-343-3548</p>
-            </div>
-            <div class="clearfix"> </div>
-          </div>
-          <div class="col-xs-6 no-padding">
-            <div class="col-xs-2 no-padding-left"><span class="round-border"><i class="icon-flat flaticon-speech-bubble"></i></span></div>
-            <div class="col-xs-9">
-              <p>Chat with a representative<br>
-                &nbsp;</p>
-            </div>
-            <div class="clearfix"> </div>
-          </div>
-          <div class="col-xs-6 no-padding">
-            <div class="col-xs-2 no-padding-left"><span class="round-border"><i class="icon-flat flaticon-placeholder"></i></span></div>
-            <div class="col-xs-9">
-              <p>Find our regional 
-                office near you</p>
-            </div>
-            <div class="clearfix"> </div>
-          </div>
-          <div class="col-xs-6 no-padding">
-            <div class="col-xs-2 no-padding-left"><span class="round-border"><i class="icon-flat flaticon-support"></i></span></div>
-            <div class="col-xs-9">
-              <p>Online Counselling<br>
-                &nbsp;</p>
-            </div>
-            <div class="clearfix"> </div>
-          </div>
-          <div class="clearfix"></div>
-        </div>
-        <div class="sm-block address-3">
-          <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.</p>
-        </div>
-      </div>
-      <div class="col-lg-6 col-md-12 bg-dark info right-section form-sec">
-        <div class="page-subheader">
-          <h2>request a quote</h2>
-        </div>
-        <div class="border"></div>
-        <div class="description"> Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur.</div>
-        <form action="/" method="post">
-          <div class="form-group no-margin">
-            <div class="controls col-xs-6 no-padding-left">
-              <input class="form-control input" placeholder="Name" name="name" type="text">
-            </div>
-            <div class="controls col-xs-6 no-padding-right">
-              <input class="form-control input" placeholder="Email" name="email" type="text">
-            </div>
-            <div class="clearfix"></div>
-          </div>
-          <div class="form-group no-margin">
-            <div class="controls col-xs-6 no-padding-left">
-              <input class="form-control input" placeholder="Service Type" name="service_type" type="text">
-            </div>
-            <div class="controls col-xs-6 no-padding-right">
-              <input class="form-control input" placeholder="Contact no." name="contact_no" type="text">
-            </div>
-            <div class="clearfix"></div>
-          </div>
-          <div class="form-group no-margin">
-            <div class="controls">
-              <textarea class="form-control textarea" rows="5" placeholder="Message" name="message"></textarea>
-            </div>
-          </div>
-          <div class="form-group">
-            <input type="button" value="SUBMIT" onclick="return ajaxmailrequest();" class="btn btn-clear">
-            <!--<button class="btn btn-clear">SUBMIT</button>-->
-            <button class="btn btn-clear blue-btn">Reset</button>
-          </div>
-        </form>
-      </div>
-    </div>
-    <div class="clearfix"></div>
   </div>
 </div>
-<!--\\ Content Section --> 
+<div id="presentation">
+  <div class="container">
+    <div class="position-relative">
+      <div class="circle-red"></div>
+      <div class="col-md-12 text-center">
+        <h1>Check this video presentation to know more<br>
+          about us and our process</h1>
+        <a data-fancybox="" class="play-button" href="https://www.youtube.com/watch?v=_sI_Ps7JSEk&autoplay=1&rel=0&controls=0&showinfo=0"> <i class="sl-icon-control-play"></i> </a> </div>
+    </div>
+    <!-- row -->
+  </div>
+  <!-- container -->
+</div>
+<div id="why-us">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 col-sm-12 position-relative">
+        <div class="about-video-bg"></div>
+        <h2 class="head-title-white">10+<br>
+          Years<br>
+          Experience</h2>
+      </div>
+      <div class="col-md-6 col-sm-12">
+        <h1 class="head-title-black">Why Us</h1>
+        <h2>We Craft Experiences that help brands stand out</h2>
+        <p>Architevo Builder is a clean, modern, and fully responsive HTML5 Template. It designed for construction company, Electric works, Repairing works, Home meaking.</p>
+        <div class="wrapper"> <i class="sl-icon-support"></i>
+          <h3>24 Hours Support</h3>
+          <p>Architevo Builder is a clean, modern, and fully responsive HTML5 Template. It designed for construction company, Electric works, Repairing works, Home meaking.</p>
+        </div>
+        <div class="wrapper"> <i class="sl-icon-trophy"></i>
+          <h3>15 Awards Winner</h3>
+          <p>Architevo Builder is a clean, modern, and fully responsive HTML5 Template. It designed for construction company, Electric works, Repairing works, Home meaking.</p>
+        </div>
+        <div class="wrapper"> <i class="sl-icon-people"></i>
+          <h3>50+ Professional Team</h3>
+          <p>Architevo Builder is a clean, modern, and fully responsive HTML5 Template. It designed for construction company, Electric works, Repairing works, Home meaking.</p>
+        </div>
+      </div>
+    </div>
+    <!-- row -->
+  </div>
+  <!-- container -->
+</div>
+<div>
+  <div class="spacing top-spac90 bottom-spac80">
+    <div class="fixed-bg" style="background:url(assets/imgs/backgrounds/counter-bg-2.jpg);"></div>
+    <div id="prtcl1" class="particle-bx"></div>
+    <div class="container">
+      <div class="choose-plan-wrap">
+        <div class="row text-light">
+          <div class="col-md-12 col-sm-12 col-lg-8">
+            <div class="choose-car overlap150 overlap-160 owl-carousel owl-carousel-4 nav-vc">
+              <div class="plan-bx text-center">
+                <div class="plan-hdr"> <i class="flaticon-043-medal"></i>
+                  <h6>General Contracting</h6>
+                  <span><sup>10:00am To 06:00:pm</sup></span> </div>
+                <div class="plan-bdy">
+                  <ul class="pln-fctr-lst">
+                    <li>Contracting</li>
+                    <li>Construction</li>
+                    <li>Repairement</li>
+                    <li>Home Making</li>
+                    <li>Electric Works</li>
+                    <li>Other Services</li>
+                  </ul>
+                </div>
+                <a class="theme-btn hrz brd-rd3" href="#" title="">Read More</a> </div>
+              <div class="plan-bx text-center">
+                <div class="plan-hdr"> <i class="flaticon-056-trophy"></i>
+                  <h6>Pre-construction</h6>
+                  <span><sup>10:00am To 06:00:pm</sup></span> </div>
+                <div class="plan-bdy">
+                  <ul class="pln-fctr-lst">
+                    <li>Contracting</li>
+                    <li>Construction</li>
+                    <li>Repairement</li>
+                    <li>Home Making</li>
+                    <li>Electric Works</li>
+                    <li>Other Services</li>
+                  </ul>
+                </div>
+                <a class="theme-btn hrz brd-rd3" href="#" title="">Read More</a> </div>
+              <div class="plan-bx text-center">
+                <div class="plan-hdr"> <i class="flaticon-075-plug"></i>
+                  <h6>Management</h6>
+                  <span><sup>10:00am To 06:00:pm</sup></span> </div>
+                <div class="plan-bdy">
+                  <ul class="pln-fctr-lst">
+                    <li>Lorem Ipsum is simply</li>
+                    <li>text of the printing</li>
+                    <li>when an unknown printer</li>
+                    <li>It was popularised in the</li>
+                    <li>Various versions have evolved</li>
+                    <li>There are many variations</li>
+                  </ul>
+                </div>
+                <a class="theme-btn hrz brd-rd3" href="#" title="">Read More</a> </div>
+            </div>
+            <!-- Choose Carousel -->
+          </div>
+          <div class="col-md-12 col-sm-12 col-lg-4">
+            <div class="sec-tile pt-40"> <i class="text-uppercase">Service</i>
+              <h2 class="mb-15 font-30">Choose the Service</h2>
+              <p class="mb-15 font-18">Donec sed odio dui. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Donec ullamcorper nulla non metus auctor fringilla.</p>
+              <a class="theme-btn mt-10 text-uppercase" href="service-details.html">View ALL Service</a> </div>
+          </div>
+        </div>
+      </div>
+      <!-- Choose Plan Wrap -->
+    </div>
+  </div>
+</div>
+<!--\\ Content Section -->
 <!-- footer-logos -->
 <div class="footer-logos content-section">
   <div class="container">
@@ -378,7 +186,7 @@
     </div>
   </div>
 </div>
-<!-- \\footer-logos --> 
+<!-- \\footer-logos -->
 <!-- footer -->
 <div class="footer">
   <div class="newsletter wow fadeInUp" data-wow-duration="900ms" data-wow-delay="100ms">
@@ -452,11 +260,11 @@
           <div class="foot-logo">
             <h3 class="montserrat">Instagram feeds</h3>
           </div>
-<div class="feeds">
-<!-- SnapWidget -->
-<iframe src="https://snapwidget.com/embed/790936" class="snapwidget-widget snapwidget-1"></iframe> 
-<!-- SnapWidget -->
-</div>
+          <div class="feeds">
+            <!-- SnapWidget -->
+            <iframe src="https://snapwidget.com/embed/790936" class="snapwidget-widget snapwidget-1"></iframe>
+            <!-- SnapWidget -->
+          </div>
           <div class="clearfix"></div>
         </div>
         <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-duration="900ms" data-wow-delay="450ms">
@@ -485,14 +293,14 @@
       <div class="clearfix"></div>
     </div>
   </div>
-  <!-- footer--> 
+  <!-- footer-->
 </div>
-<!-- Scroll Top Button --> 
-<a href="#top"></a> 
+<!-- Scroll Top Button -->
+<a href="#top"></a>
 <!--  Form Submission Popup -->
 <p class="no-margin" data-toggle="modal" data-target="#myModalsubs" id="model2"></p>
 <div id="myModalsubs" class="modal fade" role="dialog">
-  <div class="modal-dialog"> 
+  <div class="modal-dialog">
     <!-- Modal content-->
     <div class="modal-content">
       <div class="modal-body"> <br>
@@ -509,24 +317,29 @@
     </div>
   </div>
 </div>
-<!--  \\ Form Submission Popup --> 
-
-<!-- Jquery Section  --> 
-<!-- Form Script --> 
-<script src="assets\js\ajax.js"></script> 
-<script src="assets\js\formValidation.js"></script> 
-<!-- JavaScript Library --> 
-<script src="assets\js\jquery-2.2.4.min.js"></script> 
-<!-- Bootstrap v4.1.3 JavaScript -->  
-<script src="assets\js\bootstrap.min.js"></script> 
-<!-- Owl Carousel --> 
-<script src="assets\js\owlcarousel\owl.carousel.staff.js"></script> 
-<!-- Scroll to Top --> 
-<script src="assets\js\scrolltopcontrol.js"></script> 
-<!-- Custom JS --> 
-<script src="assets\js\custom-services.js"></script> 
-<!-- Fixed Header --> 
-<script src="assets\js\classie.js"></script> 
+<!--  \\ Form Submission Popup -->
+<!-- Jquery Section  -->
+<!-- Form Script -->
+<script src="assets\js\ajax.js"></script>
+<script src="assets\js\formValidation.js"></script>
+<!-- JavaScript Library -->
+<script src="assets\js\jquery-2.2.4.min.js"></script>
+<!-- Bootstrap v4.1.3 JavaScript -->
+<script src="assets\js\bootstrap.min.js"></script>
+<link rel="stylesheet" href="assets\js\fancybox\jquery.fancybox.min.css">
+<script src="assets\js\fancybox\jquery.fancybox.min.js"></script>
+<script src="assets\js\particles.js"></script>
+<script src="assets\js\part-int.js"></script>
+<!-- Owl Carousel -->
+<script src="assets\js\owl-car-new\owl-carousel.js"></script>
+<!-- Owl Carousel -->
+<script src="assets\js\owlcarousel\owl.carousel.staff.js"></script>
+<!-- Scroll to Top -->
+<script src="assets\js\scrolltopcontrol.js"></script>
+<!-- Custom JS-->
+<script src="assets\js\custom-services.js"></script>
+<!-- Fixed Header-->
+<script src="assets\js\classie.js"></script>
 <script src="assets\js\cbpAnimatedHeader.js"></script>
 </body>
 <!-- // Body -->
