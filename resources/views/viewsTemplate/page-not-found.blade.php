@@ -1,4 +1,9 @@
-﻿
+﻿@section('title')
+@extends('layout')
+
+@section('contenido')
+
+
 
 <!-- Content Section -->
 <div class="content-section about-page-section">
@@ -10,3 +15,11 @@
   </div>
 </div>
 <!-- \\ Content Section --> 
+
+
+@endsection
+
+@section('enlace_footer')
+
+
+@endsection

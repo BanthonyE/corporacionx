@@ -1,4 +1,8 @@
-﻿
+﻿@section('title')
+@extends('layout')
+
+@section('contenido')
+
 
 
 <!-- Inner Header -->
@@ -39,3 +43,11 @@
 </div>
 <hr>
 <!--\\ Content Section --> 
+
+
+@endsection
+
+@section('enlace_footer')
+
+
+@endsection

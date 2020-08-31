@@ -1,4 +1,9 @@
-﻿
+﻿@section('title')
+@extends('layout')
+
+@section('contenido')
+
+
 <!-- Inner Header -->
 <div class="inner-header">
   <div class="pattern"></div>
@@ -318,6 +323,11 @@
   </div>
 </div>
 <!--  \\ Form Submission Popup -->
+
+@endsection
+
+@section('enlace_footer')
+
 <!-- Jquery Section  -->
 <!-- Form Script -->
 <script src="assets\js\ajax.js"></script>
@@ -341,7 +351,6 @@
 <!-- Fixed Header-->
 <script src="assets\js\classie.js"></script>
 <script src="assets\js\cbpAnimatedHeader.js"></script>
-</body>
-<!-- // Body -->
-</html>
-<!-- // HTML -->
+
+
+@endsection
