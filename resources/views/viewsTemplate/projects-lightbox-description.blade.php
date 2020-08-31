@@ -207,7 +207,7 @@
 
                 </div>
                 <div class="col-lg-7 col-md-12 details2">
-                    <img src="assets\imgs\blog-images\a.jpg" class="img-fluid"> </div>
+                    <img src="{!! asset('assets\imgs\blog-images\a.jpg') !!}" class="img-fluid"> </div>
 
             </div>
 
