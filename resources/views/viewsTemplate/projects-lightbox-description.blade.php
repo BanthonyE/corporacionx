@@ -176,7 +176,7 @@
     <div style="display: none;width:70%;" id="trueModal">
         <div class="content-section about-page-section">
             <h2 class="text-center text-uppercase">Project <span class="orange-txt">Details</span></h2>
-            <div class="border-creative text-center"><img src="assets\imgs\borders\border.png" alt=""></div>
+            <div class="border-creative text-center"><img src="{!! asset('assets\imgs\borders\border.png') !!}" alt=""></div>
             <div class="project-details">
                 <button data-fancybox-close="" class="cl">X</button>
                 <div class="col-lg-5 col-md-12 details2">

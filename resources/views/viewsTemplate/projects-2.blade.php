@@ -218,7 +218,7 @@
                         <div class="portfolio app" data-cat="app">
                             <a href="{{ route('project-details') }}" class="tilter tilter--4">
                                 <figure class="tilter__figure">
-                                    <img class="tilter__image img-fluid" src="assets\imgs\projects\image-9.jpg"
+                                    <img class="tilter__image img-fluid" src="{!! asset('assets\imgs\projects\image-9.jpg') !!}"
                                         alt="img07">
                                     <div class="tilter__deco tilter__deco--shine">
                                         <div></div>
