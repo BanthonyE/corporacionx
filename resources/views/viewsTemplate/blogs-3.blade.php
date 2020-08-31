@@ -14,9 +14,9 @@
                 <div class="home-builder-page-title">
                     <h1>Blogs</h1>
                     <h1 class="titlecolor">Left Sidebar</h1>
-                    <img src="assets\imgs\linew.png" alt="">
+                    <img src="{!! asset('assets\imgs\linew.png') !!}" alt="">
                     <ol class="breadcrumb">
-                        <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                        <li><a href="{{ route('index') }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                         <li class="active">Blog V3</li>
                     </ol>
                 </div>
@@ -72,25 +72,25 @@
                         <div class="border-orange"></div>
                         <div class="clearfix"></div>
                         <div class="">
-                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="assets\imgs\blog-images\a.jpg"
+                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="{!! asset('assets\imgs\blog-images\a.jpg') !!}"
                                     class="img-fluid" alt=""> </div>
-                            <div class="col-md-7 col-sm-8 col-xs-8 no-padding-right"> <a href="blog-details.html">
+                            <div class="col-md-7 col-sm-8 col-xs-8 no-padding-right"> <a href="{{ route('blog-details') }}">
                                     <h4>Neque porro quisquam est qui dolorem</h4>
                                 </a>
                                 <p>March 31, 2020</p>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="assets\imgs\blog-images\b.jpg"
+                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="{!! asset('assets\imgs\blog-images\b.jpg') !!}"
                                     class="img-fluid" alt=""> </div>
-                            <div class="col-md-7 col-sm-8 col-xs-8 no-padding-right"> <a href="blog-details.html">
+                            <div class="col-md-7 col-sm-8 col-xs-8 no-padding-right"> <a href="{{ route('blog-details') }}">
                                     <h4>Neque porro quisquam est qui dolorem</h4>
                                 </a>
                                 <p>March 31, 2020</p>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="assets\imgs\blog-images\c.jpg"
+                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="{!! asset('assets\imgs\blog-images\c.jpg') !!}"
                                     class="img-fluid" alt=""> </div>
-                            <div class="col-md-7 col-sm-8 col-xs-8 no-padding-right"> <a href="blog-details.html">
+                            <div class="col-md-7 col-sm-8 col-xs-8 no-padding-right"> <a href="{{ route('blog-details') }}">
                                     <h4>Neque porro quisquam est qui dolorem</h4>
                                 </a>
                                 <p>March 31, 2020</p>
@@ -158,14 +158,14 @@
                     <li>|</li>
                     <li>No Comments</li>
                 </ul>
-                <div class="img-cont"><img src="assets\imgs\blog-images\blog-1.jpg" alt="" title="" class="img-fluid">
+                <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-1.jpg') !!}" alt="" title="" class="img-fluid">
                 </div>
                 <div class="blog-text">
                     <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
                         illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
                         blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. </p>
                 </div>
-                <div class="pull-left"><a href="blog-details.html" class="continue montserrat">READ MORE <i
+                <div class="pull-left"><a href="{{ route('blog-details') }}" class="continue montserrat">READ MORE <i
                             class="fa fa-long-arrow-right" aria-hidden="true"></i> </a></div>
                 <div class="pull-right">
                     <div class="share2 montserrat">
@@ -188,14 +188,14 @@
                     <li>|</li>
                     <li>No Comments</li>
                 </ul>
-                <div class="img-cont"><img src="assets\imgs\blog-images\blog-2.jpg" alt="" title="" class="img-fluid">
+                <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-2.jpg') !!}" alt="" title="" class="img-fluid">
                 </div>
                 <div class="blog-text">
                     <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
                         illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui
                         blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. </p>
                 </div>
-                <div class="pull-left"><a href="blog-details.html" class="continue montserrat">READ MORE <i
+                <div class="pull-left"><a href="{{ route('blog-details') }}" class="continue montserrat">READ MORE <i
                             class="fa fa-long-arrow-right" aria-hidden="true"></i> </a></div>
                 <div class="pull-right">
                     <div class="share2 montserrat">

@@ -14,11 +14,11 @@
             <div class="col-xs-12 text-left">
                 <div class="home-builder-page-title">
                     <h1>Blogs</h1>
-                    <h1 class="titlecolor">V2</h1>
-                    <img src="assets\imgs\linew.png" alt="">
+                    <h1 class="titlecolor">V1</h1>
+                    <img src="{!! asset('assets\imgs\linew.png') !!}" alt="">
                     <ol class="breadcrumb">
-                        <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
-                        <li class="active">Blog V2</li>
+                        <li><a href="{{ route('index') }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                        <li class="active">Blog V1</li>
                     </ol>
                 </div>
             </div>
@@ -45,12 +45,12 @@
                         <li>|</li>
                         <li>No Comments</li>
                     </ul>
-                    <div class="img-cont"><img src="assets\imgs\blog-images\blog-1.jpg" alt="" title=""
+                    <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-1.jpg') !!}" alt="" title=""
                             class="img-fluid"></div>
                     <div class="blog-text">
                         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. </p>
                     </div>
-                    <div class="pull-left"><a href="blog-details.html" class="continue montserrat">READ MORE <i
+                    <div class="pull-left"><a href="{{ route('blog-details') }}" class="continue montserrat">READ MORE <i
                                 class="fa fa-long-arrow-right" aria-hidden="true"></i> </a></div>
                     <div class="pull-right">
                         <div class="share2 montserrat">
@@ -74,12 +74,12 @@
                         <li>|</li>
                         <li>No Comments</li>
                     </ul>
-                    <div class="img-cont"><img src="assets\imgs\blog-images\blog-4.jpg" alt="" title=""
+                    <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-4.jpg') !!}" alt="" title=""
                             class="img-fluid"></div>
                     <div class="blog-text">
                         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. </p>
                     </div>
-                    <div class="pull-left"><a href="blog-details.html" class="continue montserrat">READ MORE <i
+                    <div class="pull-left"><a href="{{ route('blog-details') }}" class="continue montserrat">READ MORE <i
                                 class="fa fa-long-arrow-right" aria-hidden="true"></i> </a></div>
                     <div class="pull-right">
                         <div class="share2 montserrat">
@@ -103,12 +103,12 @@
                         <li>|</li>
                         <li>No Comments</li>
                     </ul>
-                    <div class="img-cont"><img src="assets\imgs\blog-images\blog-3.jpg" alt="" title=""
+                    <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-3.jpg') !!}" alt="" title=""
                             class="img-fluid"></div>
                     <div class="blog-text">
                         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. </p>
                     </div>
-                    <div class="pull-left"><a href="blog-details.html" class="continue montserrat">READ MORE <i
+                    <div class="pull-left"><a href="{{ route('blog-details') }}" class="continue montserrat">READ MORE <i
                                 class="fa fa-long-arrow-right" aria-hidden="true"></i> </a></div>
                     <div class="pull-right">
                         <div class="share2 montserrat">
@@ -132,12 +132,12 @@
                         <li>|</li>
                         <li>No Comments</li>
                     </ul>
-                    <div class="img-cont"><img src="assets\imgs\blog-images\blog-5.jpg" alt="" title=""
+                    <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-5.jpg') !!}" alt="" title=""
                             class="img-fluid"></div>
                     <div class="blog-text">
                         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. </p>
                     </div>
-                    <div class="pull-left"><a href="blog-details.html" class="continue montserrat">READ MORE <i
+                    <div class="pull-left"><a href="{{ route('blog-details') }}" class="continue montserrat">READ MORE <i
                                 class="fa fa-long-arrow-right" aria-hidden="true"></i> </a></div>
                     <div class="pull-right">
                         <div class="share2 montserrat">
@@ -161,12 +161,12 @@
                         <li>|</li>
                         <li>No Comments</li>
                     </ul>
-                    <div class="img-cont"><img src="assets\imgs\blog-images\blog-6.jpg" alt="" title=""
+                    <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-6.jpg') !!}" alt="" title=""
                             class="img-fluid"></div>
                     <div class="blog-text">
                         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. </p>
                     </div>
-                    <div class="pull-left"><a href="blog-details.html" class="continue montserrat">READ MORE <i
+                    <div class="pull-left"><a href="{{ route('blog-details') }}" class="continue montserrat">READ MORE <i
                                 class="fa fa-long-arrow-right" aria-hidden="true"></i> </a></div>
                     <div class="pull-right">
                         <div class="share2 montserrat">
@@ -190,12 +190,12 @@
                         <li>|</li>
                         <li>No Comments</li>
                     </ul>
-                    <div class="img-cont"><img src="assets\imgs\blog-images\blog-2.jpg" alt="" title=""
+                    <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-2.jpg') !!}" alt="" title=""
                             class="img-fluid"></div>
                     <div class="blog-text">
                         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. </p>
                     </div>
-                    <div class="pull-left"><a href="blog-details.html" class="continue montserrat">READ MORE <i
+                    <div class="pull-left"><a href="{{ route('blog-details') }}" class="continue montserrat">READ MORE <i
                                 class="fa fa-long-arrow-right" aria-hidden="true"></i> </a></div>
                     <div class="pull-right">
                         <div class="share2 montserrat">

@@ -6,16 +6,16 @@
         <div class="border-creative text-center"><img src="assets\imgs\borders\border.png" alt=""></div>
         <p class="clients-para">Our Clients are super important for our well being</p>
         <div id="owl-demo" class="owl-carousel">
-            <div class="item"><img src="assets\imgs\logo-carousel\logo1.png" alt=""></div>
-            <div class="item"><img src="assets\imgs\logo-carousel\logo2.png" alt=""></div>
-            <div class="item"><img src="assets\imgs\logo-carousel\logo3.png" alt=""></div>
-            <div class="item"><img src="assets\imgs\logo-carousel\logo4.png" alt=""></div>
-            <div class="item"><img src="assets\imgs\logo-carousel\logo5.png" alt=""></div>
-            <div class="item"><img src="assets\imgs\logo-carousel\logo1.png" alt=""></div>
-            <div class="item"><img src="assets\imgs\logo-carousel\logo2.png" alt=""></div>
-            <div class="item"><img src="assets\imgs\logo-carousel\logo3.png" alt=""></div>
-            <div class="item"><img src="assets\imgs\logo-carousel\logo4.png" alt=""></div>
-            <div class="item"><img src="assets\imgs\logo-carousel\logo5.png" alt=""></div>
+            <div class="item"><img src="{!! asset('assets\imgs\logo-carousel\logo1.png') !!}" alt=""></div>
+            <div class="item"><img src="{!! asset('assets\imgs\logo-carousel\logo2.png') !!}" alt=""></div>
+            <div class="item"><img src="{!! asset('assets\imgs\logo-carousel\logo3.png') !!}" alt=""></div>
+            <div class="item"><img src="{!! asset('assets\imgs\logo-carousel\logo4.png') !!}" alt=""></div>
+            <div class="item"><img src="{!! asset('assets\imgs\logo-carousel\logo5.png') !!}" alt=""></div>
+            <div class="item"><img src="{!! asset('assets\imgs\logo-carousel\logo1.png') !!}" alt=""></div>
+            <div class="item"><img src="{!! asset('assets\imgs\logo-carousel\logo2.png') !!}" alt=""></div>
+            <div class="item"><img src="{!! asset('assets\imgs\logo-carousel\logo3.png') !!}" alt=""></div>
+            <div class="item"><img src="{!! asset('assets\imgs\logo-carousel\logo4.png') !!}" alt=""></div>
+            <div class="item"><img src="{!! asset('assets\imgs\logo-carousel\logo5.png') !!}" alt=""></div>
         </div>
     </div>
 </div>
@@ -61,7 +61,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-duration="900ms" data-wow-delay="150ms">
-                    <div class="foot-logo"> <img src="assets\imgs\footer-logo.png" alt="" class="img-fluid"> </div>
+                    <div class="foot-logo"> <img src="{!! asset('assets\imgs\footer-logo.png') !!}" alt="" class="img-fluid"> </div>
                     <div class="foot-content">
                         <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.
                             Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit.

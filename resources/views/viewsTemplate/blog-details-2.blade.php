@@ -14,9 +14,9 @@
                 <div class="home-builder-page-title">
                     <h1>Blog Details</h1>
                     <h1 class="titlecolor">Left Sidebar</h1>
-                    <img src="assets\imgs\linew.png" alt="">
+                    <img src="{!! asset('assets\imgs\linew.png') !!}" alt="">
                     <ol class="breadcrumb">
-                        <li><a href="index.html"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
+                        <li><a href="{{ route('index') }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                         <li class="active">Blog Page</li>
                     </ol>
                 </div>
@@ -75,25 +75,25 @@
                         <div class="border-orange"></div>
                         <div class="clearfix"></div>
                         <div class="">
-                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="assets\imgs\blog-images\a.jpg"
+                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="{!! asset('assets\imgs\blog-images\a.jpg') !!}"
                                     class="img-fluid" alt=""> </div>
-                            <div class="col-md-7 col-sm-8 col-xs-8 no-padding-right"> <a href="blog-details.html">
+                            <div class="col-md-7 col-sm-8 col-xs-8 no-padding-right"> <a href="{{ route('blog-details') }}">
                                     <h4>Neque porro quisquam est qui dolorem</h4>
                                 </a>
                                 <p>March 31, 2020</p>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="assets\imgs\blog-images\b.jpg"
+                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="{!! asset('assets\imgs\blog-images\b.jpg') !!}"
                                     class="img-fluid" alt=""> </div>
-                            <div class="col-md-7 col-sm-8 col-xs-8 no-padding-right"> <a href="blog-details.html">
+                            <div class="col-md-7 col-sm-8 col-xs-8 no-padding-right"> <a href="{{ route('blog-details') }}">
                                     <h4>Neque porro quisquam est qui dolorem</h4>
                                 </a>
                                 <p>March 31, 2020</p>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="assets\imgs\blog-images\c.jpg"
+                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="{!! asset('assets\imgs\blog-images\c.jpg') !!}"
                                     class="img-fluid" alt=""> </div>
-                            <div class="col-md-7 col-sm-8 col-xs-8 no-padding-right"> <a href="blog-details.html">
+                            <div class="col-md-7 col-sm-8 col-xs-8 no-padding-right"> <a href="{{ route('blog-details') }}">
                                     <h4>Neque porro quisquam est qui dolorem</h4>
                                 </a>
                                 <p>March 31, 2020</p>
@@ -160,7 +160,7 @@
                     <li>|</li>
                     <li>No Comments</li>
                 </ul>
-                <div class="img-cont"><img src="assets\imgs\blog-images\blog-1.jpg" alt="" title="" class="img-fluid">
+                <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-1.jpg') !!}" alt="" title="" class="img-fluid">
                 </div>
                 <div class="blog-text">
                     <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
@@ -175,7 +175,7 @@
                     <div class="clearfix"></div>
                     <div class="row m-0">
                         <div class="col-lg-5 col-md-5 no-padding-left padd-0 text-center"><img
-                                src="assets\imgs\blog-images\blog-in.jpg" class="img-fluid mt-15" alt=""> </div>
+                                src="{!! asset('assets\imgs\blog-images\blog-in.jpg') !!}" class="img-fluid mt-15" alt=""> </div>
                         <div class="col-lg-7 col-md-7 padd-0">
                             <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat,
                                 vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio
@@ -192,10 +192,10 @@
                         tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat
                         facer possim assum.</p>
                 </div>
-                <div class="pull-left text-uppercase"> <a href="blog-details.html"
-                        class="right-tags montserrat">Home</a> <a href="blog-details.html"
-                        class="right-tags montserrat">Repair</a> <a href="blog-details.html"
-                        class="right-tags montserrat">Service</a> <a href="blog-details.html"
+                <div class="pull-left text-uppercase"> <a href="{{ route('blog-details') }}"
+                        class="right-tags montserrat">Home</a> <a href="{{ route('blog-details') }}"
+                        class="right-tags montserrat">Repair</a> <a href="{{ route('blog-details') }}"
+                        class="right-tags montserrat">Service</a> <a href="{{ route('blog-details') }}"
                         class="right-tags montserrat">Construction</a> </div>
                 <div class="pull-right">
                     <div class="share2 montserrat">
@@ -210,7 +210,7 @@
                 <div class="clearfix"></div>
                 <hr class="pro-hr">
                 <div class="comment-section">
-                    <div class="dp-container"><img src="assets\imgs\clients\client-1.jpg" class="img-fluid" alt="">
+                    <div class="dp-container"><img src="{!! asset('assets\imgs\clients\client-1.jpg') !!}" class="img-fluid" alt="">
                     </div>
                     <div class="main-comment">
                         <h4>Selina Kyle <span>8 April, 2020 at 9:00 am</span></h4>
@@ -239,7 +239,7 @@
                                 <div class="col-xs-12">
                                     <input type="button" class="continue montserrat" value="SUBMIT" name="submitt"
                                         onclick="return ajaxmailblog();">
-                                    <!--<a href="blog-details.html" class="continue montserrat">SUBMIT <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>-->
+                                    <!--<a href="{{ route('blog-details') }}" class="continue montserrat">SUBMIT <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>-->
                                 </div>
                                 <div class="clearfix"></div>
                             </div>
@@ -248,7 +248,7 @@
                 </div>
                 <hr class="pro-hr">
                 <div class="comment-section">
-                    <div class="dp-container"><img src="assets\imgs\clients\client-2.jpg" class="img-fluid" alt="">
+                    <div class="dp-container"><img src="{!! asset('assets\imgs\clients\client-2.jpg') !!}" class="img-fluid" alt="">
                     </div>
                     <div class="main-comment">
                         <h4>Chris Wayne <span>8 April, 2020 at 9:00 am</span></h4>
@@ -277,7 +277,7 @@
                                 <div class="col-xs-12">
                                     <input type="button" class="continue montserrat" value="SUBMIT" name="submitt"
                                         onclick="return ajaxmailblog();">
-                                    <!--<a href="blog-details.html" class="continue montserrat">SUBMIT <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
+                                    <!--<a href="{{ route('blog-details') }}" class="continue montserrat">SUBMIT <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a>
 -->
                                 </div>
                                 <div class="clearfix"></div>
@@ -301,7 +301,7 @@
                                 <div class="col-xs-12">
                                     <textarea placeholder="Message"></textarea>
                                 </div>
-                                <div class="col-xs-12"> <a href="blog-details.html" class="continue montserrat">SUBMIT
+                                <div class="col-xs-12"> <a href="{{ route('blog-details') }}" class="continue montserrat">SUBMIT
                                         <i class="fa fa-long-arrow-right" aria-hidden="true"></i> </a> </div>
                                 <div class="clearfix"></div>
                             </div>
