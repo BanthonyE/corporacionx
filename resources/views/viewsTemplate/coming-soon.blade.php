@@ -9,26 +9,26 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon -->
-    <link rel="icon" href="assets\imgs\favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets\imgs\favicon.ico') }}" type="image/x-icon">
     <title>Architevo Builder : Construction Services</title>
     <!-- Template CSS -->
-    <link href="assets\css\default.css" rel="stylesheet">
-    <link rel="stylesheet" href="assets\js\responsive-slide\responsiveslides.css">
+    <link href="{{ asset('assets\css\default.css') }}" rel="stylesheet">
+    <link rel="stylesheet" href="{{ asset('assets\js\responsive-slide\responsiveslides.css') }}">
 </head>
 <!-- //  Head-->
 
 <body>
     <!--header -->
-    <div class="coming-soon-logo text-center"><a href="index.html" title=""><img src="assets\imgs\comin-soon\logo.png"
+    <div class="coming-soon-logo text-center"><a href="index.html" title=""><img src="{{ asset('assets\imgs\comin-soon\logo.png') }}"
                 alt=""></a></div>
     <!-- // header -->
     <!-- Slider Jquery -->
     <div class="responsie-slider">
         <div class="pattern"></div>
         <ul class="rslides" id="slider1">
-            <li><img src="assets\imgs\comin-soon\banner-1.jpg" alt=""></li>
-            <li><img src="assets\imgs\comin-soon\banner-2.jpg" alt=""></li>
-            <li><img src="assets\imgs\comin-soon\banner-3.jpg" alt=""></li>
+            <li><img src="{{ asset('assets\imgs\comin-soon\banner-1.jpg') }}" alt=""></li>
+            <li><img src="{{ asset('assets\imgs\comin-soon\banner-2.jpg') }}" alt=""></li>
+            <li><img src="{{ asset('assets\imgs\comin-soon\banner-3.jpg') }}" alt=""></li>
         </ul>
     </div>
     <!-- // Slider Jquery -->
@@ -48,11 +48,12 @@
     <div class="subscribe-coming raleway text-uppercase">
         <h3><span>Subscribe </span>And Be The First To Know</h3>
         <div class="subscribe-form">
-            <form method="post" id="subsMiddleForm" onsubmit="return ajaxmailmiddlesubscribe();">
+            {{-- <form method="post" id="subsMiddleForm" onsubmit="return ajaxmailmiddlesubscribe();"> --}}
+            <form method="post" id="subsMiddleForm" onsubmit="">
                 <input type="email" class="coming-input" name="subsmiddleemail" id="subsmiddleemail"
                     placeholder="Enter your Email Address">
-                <input type="button" class="coming-input montserrat" value="SUBSCRIBE NOW"
-                    onclick="return ajaxmailmiddlesubscribe();">
+                {{-- <input type="button" class="coming-input montserrat" value="SUBSCRIBE NOW" onclick="return ajaxmailmiddlesubscribe();"> --}}
+                <input type="button" class="coming-input montserrat" value="SUBSCRIBE NOW" onclick="">
             </form>
         </div>
     </div>
@@ -122,18 +123,18 @@
     <!-- \\ Form Submission Popup -->
     <!-- Jquery Section  -->
     <!-- Form Script -->
-    <script src="assets\js\ajax.js"></script>
-    <script src="assets\js\formValidation.js"></script>
+    <script src="{{ asset('assets\js\ajax.js') }}"></script>
+    <script src="{{ asset('assets\js\formValidation.js') }}"></script>
     <!-- Javascript Library -->
-    <script src="assets\js\coming-soon\js\jquery-2.2.4.min.js"></script>
+    <script src="{{ asset('assets\js\coming-soon\js\jquery-2.2.4.min.js') }}"></script>
     <!-- background Slider -->
-    <script src="assets\js\responsive-slide\responsiveslides.min.js"></script>
-    <script src="assets\js\responsive-slide\rr-slides.js"></script>
+    <script src="{{ asset('assets\js\responsive-slide\responsiveslides.min.js') }}"></script>
+    <script src="{{ asset('assets\js\responsive-slide\rr-slides.js') }}"></script>
     <!-- Countdown -->
-    <script src="assets\js\coming-soon\js\coundown-timer.js"></script>
-    <script src="assets\js\coming-soon\js\scripts.js"></script>
+    <script src="{{ asset('assets\js\coming-soon\js\coundown-timer.js') }}"></script>
+    <script src="{{ asset('assets\js\coming-soon\js\scripts.js') }}"></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="assets\js\bootstrap.min.js"></script>
+    <script src="{{ asset('assets\js\bootstrap.min.js') }}"></script>
 </body>
 <!-- // Body -->
 

@@ -9,10 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!--Favicon-->
-    <link rel="icon" href="assets\imgs\favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets\imgs\favicon.ico') }}" type="image/x-icon">
     <title>Architevo Builder : Construction Services</title>
     <!-- Template CSS -->
-    <link href="assets\css\default.css" rel="stylesheet">
+    <link href="{{ asset('assets\css\default.css') }}" rel="stylesheet">
 </head>
 <!-- //  Head-->
 
@@ -29,7 +29,7 @@
                     <div class="home-builder-page-title">
                         <h1>Contact Us</h1>
                         <h1 class="titlecolor">V2</h1>
-                        <img src="assets\imgs\linew.png" alt="">
+                        <img src="{{ asset('assets\imgs\linew.png') }}" alt="">
                         <ol class="breadcrumb">
                             <li><a href="{{ route('index') }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                             <li class="active">Contact Us V2</li>
@@ -95,8 +95,8 @@
                                         <textarea name="message" id="contact_message2" placeholder="Message"></textarea>
                                     </div>
                                     <div class="col-md-12 col-sm-12 col-lg-12">
-                                        <button class="theme-bg theme-btn" type="button"
-                                            onclick="return ajaxmailcontact2();">SUBMIT NOW</button>
+                                        {{-- <button class="theme-bg theme-btn" type="button" onclick="return ajaxmailcontact2();">SUBMIT NOW</button> --}}
+                                        <button class="theme-bg theme-btn" type="button" onclick="">SUBMIT NOW</button>
                                     </div>
                                 </div>
                             </form>
@@ -116,28 +116,28 @@
     <!-- \\ Form Submission Popup -->
     <!-- Jquery Section  -->
     <!-- Form Script -->
-    <script src="assets\js\ajax.js"></script>
-    <script src="assets\js\formValidation.js"></script>
+    <script src="{{ asset('assets\js\ajax.js') }}"></script>
+    <script src="{{ aset('assets\js\formValidation.js') }}"></script>
     <!-- JavaScript Library -->
-    <script src="assets\js\jquery-2.2.4.min.js"></script>
+    <script src="{{ asset('assets\js\jquery-2.2.4.min.js') }}"></script>
     <!-- Bootstrap v4.1.3 JavaScript -->
-    <script src="assets\js\bootstrap.min.js"></script>
+    <script src="{{ asset('assets\js\bootstrap.min.js') }}"></script>
     <!-- Owl Carousel -->
-    <script src="assets\js\owlcarousel\owl.carousel.staff.js"></script>
+    <script src="{{ asset('assets\js\owlcarousel\owl.carousel.staff.js') }}"></script>
     <!-- Number Counter -->
-    <script src="assets\js\numscroller-1.0.js"></script>
+    <script src="{{ asset('assets\js\numscroller-1.0.js') }}"></script>
     <!-- Custom JS -->
-    <script src="assets\js\custom-carousel.js"></script>
+    <script src="{{ asset('assets\js\custom-carousel.js') }}"></script>
     <!-- Fixed header -->
-    <script src="assets\js\classie.js"></script>
-    <script src="assets\js\cbpAnimatedHeader.js"></script>
+    <script src="{{ asset('assets\js\classie.js') }}"></script>
+    <script src="{{ asset('assets\js\cbpAnimatedHeader.js') }}"></script>
 
     <!-- map JS & CSS -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvaePWv-3JD7YYe7f84kbpV1j0RhtBKno&extension=.js">
     </script>
-    <script src="assets\js\map-js\infobox.js"></script>
-    <link href="assets\js\map-js\infobox.css" rel="stylesheet">
-    <script src="assets\js\map-js\custom-map.js"></script>
+    <script src="{{ asset('assets\js\map-js\infobox.js') }}"></script>
+    <link href="{{ asset('assets\js\map-js\infobox.css') }}" rel="stylesheet">
+    <script src="{{ asset('assets\js\map-js\custom-map.js') }}"></script>
     <script>
         function ckhformsubscribe1() {
             if (document.getElementById("subsemail").value == '') {

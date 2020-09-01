@@ -14,7 +14,7 @@
                 <div class="home-builder-page-title">
                     <h1>Blogs</h1>
                     <h1 class="titlecolor">V2</h1>
-                    <img src="assets\imgs\linew.png" alt="">
+                    <img src="{{ asset('assets\imgs\linew.png') }}" alt="">
                     <ol class="breadcrumb">
                         <li><a href="{{ route('index') }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                         <li class="active">Blog V2</li>
@@ -33,7 +33,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="post-bx">
                     <div class="post-thumb hrz brd-rd3"> <a href="{{ route('blog-details') }}" title=""><img
-                                src="assets\imgs\blog-images\blog-1.jpg" alt="post-img3-1.jpg"></a> </div>
+                                src="{{ asset('assets\imgs\blog-images\blog-1.jpg') }}" alt="post-img3-1.jpg"></a> </div>
                     <div class="post-info">
                         <h4><a href="{{ route('blog-details') }}" title="">Neque porro qui</a></h4>
                         <ul class="post-meta">
@@ -45,7 +45,7 @@
                 </div>
                 <div class="post-bx">
                     <div class="post-thumb hrz brd-rd3"> <a href="{{ route('blog-details') }}" title=""><img
-                                src="assets\imgs\blog-images\blog-2.jpg" alt="post-img3-2.jpg"></a> </div>
+                                src="{{ asset('assets\imgs\blog-images\blog-2.jpg') }}" alt="post-img3-2.jpg"></a> </div>
                     <div class="post-info">
                         <h4><a href="{{ route('blog-details') }}" title="">Neque porro qui</a></h4>
                         <ul class="post-meta">
@@ -57,7 +57,7 @@
                 </div>
                 <div class="post-bx">
                     <div class="post-thumb hrz brd-rd3"> <a href="{{ route('blog-details') }}" title=""><img
-                                src="assets\imgs\blog-images\blog-3.jpg" alt="post-img3-3.jpg"></a> </div>
+                                src="{{ asset('assets\imgs\blog-images\blog-3.jpg') }}" alt="post-img3-3.jpg"></a> </div>
                     <div class="post-info">
                         <h4><a href="{{ route('blog-details') }}" title="">Neque porro qui</a></h4>
                         <ul class="post-meta">
@@ -69,57 +69,7 @@
                 </div>
                 <div class="post-bx">
                     <div class="post-thumb hrz brd-rd3"> <a href="{{ route('blog-details') }}" title=""><img
-                                src="assets\imgs\blog-images\blog-8.jpg" alt="post-img3-4.jpg"></a> </div>
-                    <div class="post-info">
-                        <h4><a href="{{ route('blog-details') }}" title="">Neque porro qui</a></h4>
-                        <ul class="post-meta">
-                            <li><i class="mdi mdi-account mr-5"></i>By <a href="#" title="">srgit</a></li>
-                            <li><i class="mdi mdi-calendar-clock mr-5"></i>October 10, 2020 in <a href="#"
-                                    title="">Society</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-4 col-sm-6">
-                <div class="post-bx">
-                    <div class="post-thumb hrz brd-rd3"> <a href="{{ route('blog-details') }}" title=""><img
-                                src="assets\imgs\blog-images\blog-7.jpg" alt="post-img3-5.jpg"></a> </div>
-                    <div class="post-info">
-                        <h4><a href="{{ route('blog-details') }}" title="">Neque porro qui</a></h4>
-                        <ul class="post-meta">
-                            <li><i class="mdi mdi-account mr-5"></i>By <a href="#" title="">srgit</a></li>
-                            <li><i class="mdi mdi-calendar-clock mr-5"></i>October 10, 2020 in <a href="#"
-                                    title="">Society</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="post-bx">
-                    <div class="post-thumb hrz brd-rd3"> <a href="{{ route('blog-details') }}" title=""><img
-                                src="assets\imgs\blog-images\blog-5.jpg" alt="post-img3-6.jpg"></a> </div>
-                    <div class="post-info">
-                        <h4><a href="{{ route('blog-details') }}" title="">Neque porro qui</a></h4>
-                        <ul class="post-meta">
-                            <li><i class="mdi mdi-account mr-5"></i>By <a href="#" title="">srgit</a></li>
-                            <li><i class="mdi mdi-calendar-clock mr-5"></i>October 10, 2020 in <a href="#"
-                                    title="">Society</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="post-bx">
-                    <div class="post-thumb hrz brd-rd3"> <a href="{{ route('blog-details') }}" title=""><img
-                                src="assets\imgs\blog-images\blog-6.jpg" alt="post-img3-7.jpg"></a> </div>
-                    <div class="post-info">
-                        <h4><a href="{{ route('blog-details') }}" title="">Neque porro qui</a></h4>
-                        <ul class="post-meta">
-                            <li><i class="mdi mdi-account mr-5"></i>By <a href="#" title="">srgit</a></li>
-                            <li><i class="mdi mdi-calendar-clock mr-5"></i>October 10, 2020 in <a href="#"
-                                    title="">Society</a></li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="post-bx">
-                    <div class="post-thumb hrz brd-rd3"> <a href="{{ route('blog-details') }}" title=""><img
-                                src="assets\imgs\blog-images\blog-5.jpg" alt="post-img3-1.jpg"></a> </div>
+                                src="{{ asset('assets\imgs\blog-images\blog-8.jpg') }}" alt="post-img3-4.jpg"></a> </div>
                     <div class="post-info">
                         <h4><a href="{{ route('blog-details') }}" title="">Neque porro qui</a></h4>
                         <ul class="post-meta">
@@ -133,7 +83,7 @@
             <div class="col-lg-4 col-md-4 col-sm-6">
                 <div class="post-bx">
                     <div class="post-thumb hrz brd-rd3"> <a href="{{ route('blog-details') }}" title=""><img
-                                src="assets\imgs\blog-images\blog-8.jpg" alt="post-img3-1.jpg"></a> </div>
+                                src="{{ asset('assets\imgs\blog-images\blog-7.jpg') }}" alt="post-img3-5.jpg"></a> </div>
                     <div class="post-info">
                         <h4><a href="{{ route('blog-details') }}" title="">Neque porro qui</a></h4>
                         <ul class="post-meta">
@@ -145,7 +95,7 @@
                 </div>
                 <div class="post-bx">
                     <div class="post-thumb hrz brd-rd3"> <a href="{{ route('blog-details') }}" title=""><img
-                                src="assets\imgs\blog-images\blog-2.jpg" alt="post-img3-2.jpg"></a> </div>
+                                src="{{ asset('assets\imgs\blog-images\blog-5.jpg') }}" alt="post-img3-6.jpg"></a> </div>
                     <div class="post-info">
                         <h4><a href="{{ route('blog-details') }}" title="">Neque porro qui</a></h4>
                         <ul class="post-meta">
@@ -157,7 +107,7 @@
                 </div>
                 <div class="post-bx">
                     <div class="post-thumb hrz brd-rd3"> <a href="{{ route('blog-details') }}" title=""><img
-                                src="assets\imgs\blog-images\blog-3.jpg" alt="post-img3-3.jpg"></a> </div>
+                                src="{{ asset('assets\imgs\blog-images\blog-6.jpg') }}" alt="post-img3-7.jpg"></a> </div>
                     <div class="post-info">
                         <h4><a href="{{ route('blog-details') }}" title="">Neque porro qui</a></h4>
                         <ul class="post-meta">
@@ -169,7 +119,57 @@
                 </div>
                 <div class="post-bx">
                     <div class="post-thumb hrz brd-rd3"> <a href="{{ route('blog-details') }}" title=""><img
-                                src="assets\imgs\blog-images\blog-4.jpg" alt="post-img3-4.jpg"></a> </div>
+                                src="{{ asset('assets\imgs\blog-images\blog-5.jpg') }}" alt="post-img3-1.jpg"></a> </div>
+                    <div class="post-info">
+                        <h4><a href="{{ route('blog-details') }}" title="">Neque porro qui</a></h4>
+                        <ul class="post-meta">
+                            <li><i class="mdi mdi-account mr-5"></i>By <a href="#" title="">srgit</a></li>
+                            <li><i class="mdi mdi-calendar-clock mr-5"></i>October 10, 2020 in <a href="#"
+                                    title="">Society</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 col-sm-6">
+                <div class="post-bx">
+                    <div class="post-thumb hrz brd-rd3"> <a href="{{ route('blog-details') }}" title=""><img
+                                src="{{ asset('assets\imgs\blog-images\blog-8.jpg') }}" alt="post-img3-1.jpg"></a> </div>
+                    <div class="post-info">
+                        <h4><a href="{{ route('blog-details') }}" title="">Neque porro qui</a></h4>
+                        <ul class="post-meta">
+                            <li><i class="mdi mdi-account mr-5"></i>By <a href="#" title="">srgit</a></li>
+                            <li><i class="mdi mdi-calendar-clock mr-5"></i>October 10, 2020 in <a href="#"
+                                    title="">Society</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="post-bx">
+                    <div class="post-thumb hrz brd-rd3"> <a href="{{ route('blog-details') }}" title=""><img
+                                src="{{ asset('assets\imgs\blog-images\blog-2.jpg') }}" alt="post-img3-2.jpg"></a> </div>
+                    <div class="post-info">
+                        <h4><a href="{{ route('blog-details') }}" title="">Neque porro qui</a></h4>
+                        <ul class="post-meta">
+                            <li><i class="mdi mdi-account mr-5"></i>By <a href="#" title="">srgit</a></li>
+                            <li><i class="mdi mdi-calendar-clock mr-5"></i>October 10, 2020 in <a href="#"
+                                    title="">Society</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="post-bx">
+                    <div class="post-thumb hrz brd-rd3"> <a href="{{ route('blog-details') }}" title=""><img
+                                src="{{ asset('assets\imgs\blog-images\blog-3.jpg') }}" alt="post-img3-3.jpg"></a> </div>
+                    <div class="post-info">
+                        <h4><a href="{{ route('blog-details') }}" title="">Neque porro qui</a></h4>
+                        <ul class="post-meta">
+                            <li><i class="mdi mdi-account mr-5"></i>By <a href="#" title="">srgit</a></li>
+                            <li><i class="mdi mdi-calendar-clock mr-5"></i>October 10, 2020 in <a href="#"
+                                    title="">Society</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="post-bx">
+                    <div class="post-thumb hrz brd-rd3"> <a href="{{ route('blog-details') }}" title=""><img
+                                src="{{ asset('assets\imgs\blog-images\blog-4.jpg') }}" alt="post-img3-4.jpg"></a> </div>
                     <div class="post-info">
                         <h4><a href="{{ route('blog-details') }}" title="">Neque porro qui</a></h4>
                         <ul class="post-meta">

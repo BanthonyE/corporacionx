@@ -10,9 +10,9 @@
     <meta name="author" content="">
     <title>Architevo Builder : Construction Services</title>
     <!-- Favicon -->
-    <link rel="icon" href="{!! asset('assets\imgs\favicon.ico') !!}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets\imgs\favicon.ico') }}" type="image/x-icon">
     <!-- Template CSS -->
-    <link href="{!! asset('assets\css\default.css') !!}" rel="stylesheet">
+    <link href="{{ asset('assets\css\default.css') }}" rel="stylesheet">
 
 </head>
 <!-- //  Head-->

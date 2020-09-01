@@ -2,14 +2,14 @@
 @extends('layout')
 
 @section('enlace_head')
-<link rel="stylesheet" href="{!! asset('recursos/css/swiper-bundle.min.css') !!}">
+<link rel="stylesheet" href="{{ asset('recursos/css/swiper-bundle.min.css') }}">
 @endsection
 
 
 @section('banner')
 
 <div class="fondo_contactenos">
-    <img src="{!! asset('recursos/img/fondos/fondo2.jpg') !!}" alt="fondo_contactenos">
+    <img src="{{ asset('recursos/img/fondos/fondo2.jpg') }}" alt="fondo_contactenos">
 </div>
 
 @endsection
@@ -26,7 +26,7 @@
                 <div class="home-builder-page-title">
                     <h1>About Us</h1>
                     <h1 class="titlecolor">V2</h1>
-                    <img src="{!! asset('assets\imgs\linew.png') !!}" alt="">
+                    <img src="{{ asset('assets\imgs\linew.png') }}" alt="">
                     <ol class="breadcrumb">
                         <li><a href="{{ route('index') }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                         <li class="active">About Us V2</li>
@@ -45,7 +45,7 @@
             <div class="about-wrp">
                 <div class="abt-bx">
                     <div class="abt-thumb">
-                        <img src="{!! asset('assets\imgs\about\about-v2-img.jpg') !!}" alt="srv-img6-1.jpg" class="img-fluid">
+                        <img src="{{ asset('assets\imgs\about\about-v2-img.jpg') }}" alt="srv-img6-1.jpg" class="img-fluid">
                     </div>
                     <div class="abt-us-2">
                         <span>About Us</span>
@@ -110,7 +110,7 @@
                     <div class="row">
                         <div class="col-md-7 col-sm-12 col-lg-6">
                             <div class="pur-mckp">
-                                <img src="{!! asset('assets\imgs\resources\img-1.jpg') !!}" alt="img-1.jpg" class="img-fluid">
+                                <img src="{{ asset('assets\imgs\resources\img-1.jpg') }}" alt="img-1.jpg" class="img-fluid">
                             </div>
                         </div>
                         <div class="col-md-5 col-sm-12 col-lg-6">
@@ -188,14 +188,14 @@
                 <div class="sec-tl2 text-center">
 
                     <h2 class="text-center text-uppercase">Our <span class="orange-txt">Clients</span></h2>
-                    <div class="border-creative text-center"><img src="{!! asset('assets\imgs\borders\border.png') !!}" alt=""></div>
+                    <div class="border-creative text-center"><img src="{{ asset('assets\imgs\borders\border.png') }}" alt=""></div>
                 </div>
                 <div class="remove-ext3">
                     <div class="row">
                         <div class="col-md-3 col-sm-6 col-lg-3">
                             <div class="team-bx style2 text-center">
                                 <div class="team-thumb hrz brd-rd50">
-                                    <a class="theme-bf-bg" href="#" title=""><img src="{!! asset('assets\imgs\staff\staff-5.png') !!}"
+                                    <a class="theme-bf-bg" href="#" title=""><img src="{{ asset('assets\imgs\staff\staff-5.png') }}"
                                             class="img-fluid" alt="team-img2-1.png"></a>
                                     <div class="team-scl">
                                         <a class="brd-rd50" href="#" title="Facebook" target="_blank"><i
@@ -219,7 +219,7 @@
                         <div class="col-md-3 col-sm-6 col-lg-3">
                             <div class="team-bx style2 text-center">
                                 <div class="team-thumb hrz brd-rd50">
-                                    <a class="theme-bf-bg" href="#" title=""><img src="{!! asset('assets\imgs\staff\staff-7.png') !!}"
+                                    <a class="theme-bf-bg" href="#" title=""><img src="{{ asset('assets\imgs\staff\staff-7.png') }}"
                                             class="img-fluid" alt="team-img2-2.jpg"></a>
                                     <div class="team-scl">
                                         <a class="brd-rd50" href="#" title="Facebook" target="_blank"><i
@@ -243,7 +243,7 @@
                         <div class="col-md-3 col-sm-6 col-lg-3">
                             <div class="team-bx style2 text-center">
                                 <div class="team-thumb hrz brd-rd50">
-                                    <a class="theme-bf-bg" href="#" title=""><img src="{!! asset('assets\imgs\staff\staff-6.png') !!}"
+                                    <a class="theme-bf-bg" href="#" title=""><img src="{{ asset('assets\imgs\staff\staff-6.png') }}"
                                             class="img-fluid" alt="team-img2-3.jpg"></a>
                                     <div class="team-scl">
                                         <a class="brd-rd50" href="#" title="Facebook" target="_blank"><i
@@ -267,7 +267,7 @@
                         <div class="col-md-3 col-sm-6 col-lg-3">
                             <div class="team-bx style2 text-center">
                                 <div class="team-thumb hrz brd-rd50">
-                                    <a class="theme-bf-bg" href="#" title=""><img src="{!! asset('assets\imgs\staff\staff-8.png') !!}"
+                                    <a class="theme-bf-bg" href="#" title=""><img src="{{ asset('assets\imgs\staff\staff-8.png') }}"
                                             class="img-fluid" alt="team-img2-4.jpg"></a>
                                     <div class="team-scl">
                                         <a class="brd-rd50" href="#" title="Facebook" target="_blank"><i
@@ -321,9 +321,9 @@
 @endsection
 
 @section('enlace_footer')
-<link rel="stylesheet" href="{!! asset('assets\js\fancybox\jquery.fancybox.min.css') !!}">
-<script src="{!! asset('assets\js\fancybox\jquery.fancybox.min.js') !!}"></script>
-<script src="{!! asset('assets\js\particles.js') !!}"></script>
-<script src="{!! asset('assets\js\part-int2.js') !!}"></script>
-<script src="{!! asset('assets\js\numscroller-1.0.js') !!}"></script>
+<link rel="stylesheet" href="{{ asset('assets\js\fancybox\jquery.fancybox.min.css') }}">
+<script src="{{ asset('assets\js\fancybox\jquery.fancybox.min.js') }}"></script>
+<script src="{{ asset('assets\js\particles.js') }}"></script>
+<script src="{{ asset('assets\js\part-int2.js') }}"></script>
+<script src="{{ asset('assets\js\numscroller-1.0.js') }}"></script>
 @endsection

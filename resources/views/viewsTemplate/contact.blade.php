@@ -94,7 +94,8 @@
                     </div>
                     <div class="clearfix"></div>
                     <div class="text-center">
-                        <input type="button" value="send message" class="submit" onclick="return ajaxmailcontact();">
+                        {{-- <input type="button" value="send message" class="submit" onclick="return ajaxmailcontact();"> --}}
+                        <input type="button" value="send message" class="submit" onclick="">
                         <input type="reset" value="reset" class="reset">
                     </div>
                 </form>
@@ -112,28 +113,28 @@
     <!-- \\ Form Submission Popup -->
     <!-- Jquery Section  -->
     <!-- Form Script -->
-    <script src="{!! asset('assets\js\ajax.js') !!}"></script>
-    <script src="{!! asset('assets\js\formValidation.js') !!}"></script>
+    <script src="{{ asset('assets\js\ajax.js') }}"></script>
+    <script src="{{ asset('assets\js\formValidation.js') }}"></script>
     <!-- JavaScript Library -->
-    <script src="{!! asset('assets\js\jquery-2.2.4.min.js') !!}"></script>
+    <script src="{{ asset('assets\js\jquery-2.2.4.min.js') }}"></script>
     <!-- Bootstrap v4.1.3 JavaScript -->
-    <script src="{!! asset('assets\js\bootstrap.min.js') !!}"></script>
+    <script src="{{ asset('assets\js\bootstrap.min.js') }}"></script>
     <!-- Owl Carousel -->
-    <script src="{!! asset('assets\js\owlcarousel\owl.carousel.staff.js') !!}"></script>
+    <script src="{{ asset('assets\js\owlcarousel\owl.carousel.staff.js') }}"></script>
     <!-- Number Counter -->
-    <script src="{!! asset('assets\js\numscroller-1.0.js') !!}"></script>
+    <script src="{{ asset('assets\js\numscroller-1.0.js') }}"></script>
     <!-- Custom JS -->
-    <script src="{!! asset('assets\js\custom-carousel.js') !!}"></script>
+    <script src="{{ asset('assets\js\custom-carousel.js') }}"></script>
     <!-- Fixed header -->
-    <script src="{!! asset('assets\js\classie.js') !!}"></script>
-    <script src="{!! asset('assets\js\cbpAnimatedHeader.js') !!}"></script>
+    <script src="{{ asset('assets\js\classie.js') }}"></script>
+    <script src="{{ asset('assets\js\cbpAnimatedHeader.js') }}"></script>
 
     <!-- map JS & CSS -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCvaePWv-3JD7YYe7f84kbpV1j0RhtBKno&extension=.js">
     </script>
-    <script src="{!! asset('assets\js\map-js\infobox.js') !!}"></script>
-    <link href="{!! asset('assets\js\map-js\infobox.css') !!}" rel="stylesheet">
-    <script src="{!! asset('assets\js\map-js\custom-map.js') !!}"></script>
+    <script src="{{ asset('assets\js\map-js\infobox.js') }}"></script>
+    <link href="{{ asset('assets\js\map-js\infobox.css') }}" rel="stylesheet">
+    <script src="{{ asset('assets\js\map-js\custom-map.js') }}"></script>
 
 
     <script>

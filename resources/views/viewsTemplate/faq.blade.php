@@ -12,7 +12,7 @@
             <div class="col-xs-12 text-left">
                 <div class="home-builder-page-title">
                     <h1 class="titlecolor">FAQS</h1>
-                    <img src="{!! asset('assets\imgs\linew.png') !!}" alt="">
+                    <img src="{{ asset('assets\imgs\linew.png') }}" alt="">
                     <ol class="breadcrumb">
                         <li><a href="{{ route('index') }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                         <li class="active">Faq's</li>
@@ -27,7 +27,7 @@
 <div class="content-section services-main">
     <div class="container faq-section"><br>
         <h2 class="text-center text-uppercase">Frequently <span class="orange-txt">Asked</span> Questions</h2>
-        <div class="border-creative text-center"><img src="{!! asset('assets\imgs\borders\border.png') !!}" alt=""></div>
+        <div class="border-creative text-center"><img src="{{ asset('assets\imgs\borders\border.png') }}" alt=""></div>
         <div class="col-md-8 col-xs-12">
             <div class="accordion-box faq-box">
                 <div id="accordion" class="accordion">
@@ -179,9 +179,11 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <input type="button" value="SUBMIT" onclick="return ajaxmailfaq();" class="btn btn-clear">
+                        {{-- <input type="button" value="SUBMIT" onclick="return ajaxmailfaq();" class="btn btn-clear"> --}}
+                        <input type="button" value="SUBMIT" onclick="" class="btn btn-clear">
                         <!--<button class="btn btn-clear">SUBMIT</button>-->
-                        <input type="button" value="Reset" onclick="return PageReset();" class="btn btn-clear blue-btn">
+                        {{-- <input type="button" value="Reset" onclick="return PageReset();" class="btn btn-clear blue-btn"> --}}
+                        <input type="button" value="Reset" onclick="" class="btn btn-clear blue-btn">
                         <!--<button class="btn btn-clear blue-btn" onClick="return PageReset();">Reset</button>-->
                     </div>
                 </form>

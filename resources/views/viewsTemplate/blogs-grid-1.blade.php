@@ -15,7 +15,7 @@
                 <div class="home-builder-page-title">
                     <h1>Blogs</h1>
                     <h1 class="titlecolor">V1</h1>
-                    <img src="{!! asset('assets\imgs\linew.png') !!}" alt="">
+                    <img src="{{ asset('assets\imgs\linew.png') }}" alt="">
                     <ol class="breadcrumb">
                         <li><a href="{{ route('index') }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                         <li class="active">Blog V1</li>
@@ -45,7 +45,7 @@
                         <li>|</li>
                         <li>No Comments</li>
                     </ul>
-                    <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-1.jpg') !!}" alt="" title=""
+                    <div class="img-cont"><img src="{{ asset('assets\imgs\blog-images\blog-1.jpg') }}" alt="" title=""
                             class="img-fluid"></div>
                     <div class="blog-text">
                         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. </p>
@@ -74,7 +74,7 @@
                         <li>|</li>
                         <li>No Comments</li>
                     </ul>
-                    <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-4.jpg') !!}" alt="" title=""
+                    <div class="img-cont"><img src="{{ asset('assets\imgs\blog-images\blog-4.jpg') }}" alt="" title=""
                             class="img-fluid"></div>
                     <div class="blog-text">
                         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. </p>
@@ -103,7 +103,7 @@
                         <li>|</li>
                         <li>No Comments</li>
                     </ul>
-                    <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-3.jpg') !!}" alt="" title=""
+                    <div class="img-cont"><img src="{{ asset('assets\imgs\blog-images\blog-3.jpg') }}" alt="" title=""
                             class="img-fluid"></div>
                     <div class="blog-text">
                         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. </p>
@@ -132,7 +132,7 @@
                         <li>|</li>
                         <li>No Comments</li>
                     </ul>
-                    <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-5.jpg') !!}" alt="" title=""
+                    <div class="img-cont"><img src="{{ asset('assets\imgs\blog-images\blog-5.jpg') }}" alt="" title=""
                             class="img-fluid"></div>
                     <div class="blog-text">
                         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. </p>
@@ -161,7 +161,7 @@
                         <li>|</li>
                         <li>No Comments</li>
                     </ul>
-                    <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-6.jpg') !!}" alt="" title=""
+                    <div class="img-cont"><img src="{{ asset('assets\imgs\blog-images\blog-6.jpg') }}" alt="" title=""
                             class="img-fluid"></div>
                     <div class="blog-text">
                         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. </p>
@@ -190,7 +190,7 @@
                         <li>|</li>
                         <li>No Comments</li>
                     </ul>
-                    <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-2.jpg') !!}" alt="" title=""
+                    <div class="img-cont"><img src="{{ asset('assets\imgs\blog-images\blog-2.jpg') }}" alt="" title=""
                             class="img-fluid"></div>
                     <div class="blog-text">
                         <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie. </p>

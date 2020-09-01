@@ -10,10 +10,10 @@
     <meta name="author" content="">
     <title>Architevo Builder : Construction Services</title>
     <!-- Favicon -->
-    <link rel="icon" href="assets\imgs\favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{asset('assets\imgs\favicon.ico')}}" type="image/x-icon">
     <!-- Template CSS -->
-    <link href="assets\css\default.css" rel="stylesheet">
-    <link rel="stylesheet" type="text/css" href="assets\css\project-2\component.css">
+    <link href="{{asset('assets\css\default.css')}}" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="{{asset('assets\css\project-2\component.css')}}">
 
 </head>
 <!-- //  Head-->
@@ -31,7 +31,7 @@
                     <div class="home-builder-page-title">
                         <h1>Our Projects</h1>
                         <h1 class="titlecolor">V2</h1>
-                        <img src="assets\imgs\linew.png" alt="">
+                        <img src="{{asset('assets\imgs\linew.png')}}" alt="">
                         <ol class="breadcrumb">
                             <li><a href="{{ route('index') }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
                             </li>
@@ -48,7 +48,7 @@
     <div class="content-section about-page-section">
         <div class="container">
             <h2 class="text-center text-uppercase">Our <span class="orange-txt">Latest Portfolio</span></h2>
-            <div class="border-creative text-center"><img src="assets\imgs\borders\border.png" alt=""></div>
+            <div class="border-creative text-center"><img src="{{asset('assets\imgs\borders\border.png')}}" alt=""></div>
             <div class="">
                 <ul id="filters" class="clearfix montserrat">
                     <li><span class="filter " data-filter=".app, .card, .icon, .logo, .web">All</span></li>
@@ -64,7 +64,7 @@
                         <div class="portfolio logo" data-cat="logo">
                             <a href="{{ route('project-details') }}" class="tilter tilter--4">
                                 <figure class="tilter__figure">
-                                    <img class="tilter__image img-fluid" src="assets\imgs\projects\image-1.jpg"
+                                    <img class="tilter__image img-fluid" src="{{asset('assets\imgs\projects\image-1.jpg')}}"
                                         alt="img07">
                                     <div class="tilter__deco tilter__deco--shine">
                                         <div></div>
@@ -84,7 +84,7 @@
                         <div class="portfolio logo" data-cat="logo">
                             <a href="{{ route('project-details') }}" class="tilter tilter--4">
                                 <figure class="tilter__figure">
-                                    <img class="tilter__image img-fluid" src="assets\imgs\projects\image-2.jpg"
+                                    <img class="tilter__image img-fluid" src="{{asset('assets\imgs\projects\image-2.jpg')}}"
                                         alt="img07">
                                     <div class="tilter__deco tilter__deco--shine">
                                         <div></div>
@@ -104,7 +104,7 @@
                         <div class="portfolio logo" data-cat="logo">
                             <a href="{{ route('project-details') }}" class="tilter tilter--4">
                                 <figure class="tilter__figure">
-                                    <img class="tilter__image img-fluid" src="assets\imgs\projects\image-3.jpg"
+                                    <img class="tilter__image img-fluid" src="{{asset('assets\imgs\projects\image-3.jpg')}}"
                                         alt="img07">
                                     <div class="tilter__deco tilter__deco--shine">
                                         <div></div>
@@ -123,7 +123,7 @@
                         <div class="portfolio card" data-cat="card">
                             <a href="{{ route('project-details') }}" class="tilter tilter--4">
                                 <figure class="tilter__figure">
-                                    <img class="tilter__image img-fluid" src="assets\imgs\projects\image-4.jpg"
+                                    <img class="tilter__image img-fluid" src="{{asset('assets\imgs\projects\image-4.jpg')}}"
                                         alt="img07">
                                     <div class="tilter__deco tilter__deco--shine">
                                         <div></div>
@@ -142,7 +142,7 @@
                         <div class="portfolio card" data-cat="card">
                             <a href="{{ route('project-details') }}" class="tilter tilter--4">
                                 <figure class="tilter__figure">
-                                    <img class="tilter__image img-fluid" src="assets\imgs\projects\image-5.jpg"
+                                    <img class="tilter__image img-fluid" src="{{asset('assets\imgs\projects\image-5.jpg')}}"
                                         alt="img07">
                                     <div class="tilter__deco tilter__deco--shine">
                                         <div></div>
@@ -161,7 +161,7 @@
                         <div class="portfolio app" data-cat="app">
                             <a href="{{ route('project-details') }}" class="tilter tilter--4">
                                 <figure class="tilter__figure">
-                                    <img class="tilter__image img-fluid" src="assets\imgs\projects\image-6.jpg"
+                                    <img class="tilter__image img-fluid" src="{{asset('assets\imgs\projects\image-6.jpg')}}"
                                         alt="img07">
                                     <div class="tilter__deco tilter__deco--shine">
                                         <div></div>
@@ -180,7 +180,7 @@
                         <div class="portfolio app" data-cat="app">
                             <a href="{{ route('project-details') }}" class="tilter tilter--4">
                                 <figure class="tilter__figure">
-                                    <img class="tilter__image img-fluid" src="assets\imgs\projects\image-7.jpg"
+                                    <img class="tilter__image img-fluid" src="{{asset('assets\imgs\projects\image-7.jpg')}}"
                                         alt="img07">
                                     <div class="tilter__deco tilter__deco--shine">
                                         <div></div>
@@ -199,7 +199,7 @@
                         <div class="portfolio app" data-cat="app">
                             <a href="{{ route('project-details') }}" class="tilter tilter--4">
                                 <figure class="tilter__figure">
-                                    <img class="tilter__image img-fluid" src="assets\imgs\projects\image-8.jpg"
+                                    <img class="tilter__image img-fluid" src="{{asset('assets\imgs\projects\image-8.jpg')}}"
                                         alt="img07">
                                     <div class="tilter__deco tilter__deco--shine">
                                         <div></div>
@@ -265,25 +265,25 @@
 
     <!-- Jquery Section  -->
     <!-- Form Script -->
-    <script src="assets\js\ajax.js"></script>
-    <script src="assets\js\formValidation.js"></script>
+    <script src="{{asset('assets\js\ajax.js')}}"></script>
+    <script src="{{asset('assets\js\formValidation.js')}}"></script>
     <!--  Javascript Library -->
-    <script src="assets\js\jquery-2.2.4.min.js"></script>
-    <script src="assets\js\jquery.mixitup.min.js"></script>
+    <script src="{{asset('assets\js\jquery-2.2.4.min.js')}}"></script>
+    <script src="{{asset('assets\js\jquery.mixitup.min.js')}}"></script>
     <!-- Bootstrap v4.1.3 JavaScript -->
-    <script src="assets\js\bootstrap.min.js"></script>
+    <script src="{{asset('assets\js\bootstrap.min.js')}}"></script>
     <!-- Owl Carousel -->
-    <script src="assets\js\owlcarousel\owl.carousel.staff.js"></script>
+    <script src="{{asset('assets\js\owlcarousel\owl.carousel.staff.js')}}"></script>
     <!-- Custom JS -->
-    <script src="assets\js\custom-projects.js"></script>
+    <script src="{{asset('assets\js\custom-projects.js')}}"></script>
     <!-- Fixed Header -->
-    <script src="assets\js\classie.js"></script>
-    <script src="assets\js\cbpAnimatedHeader.js"></script>
+    <script src="{{asset('assets\js\classie.js')}}"></script>
+    <script src="{{asset('assets\js\cbpAnimatedHeader.js')}}"></script>
 
-    <script src="assets\js\project-2\imagesloaded.pkgd.min.js"></script>
-    <script src="assets\js\project-2\anime.min.js"></script>
-    <script src="assets\js\project-2\main.js"></script>
-    <script src="assets\js\project-2\tilt.js"></script>
+    <script src="{{asset('assets\js\project-2\imagesloaded.pkgd.min.js')}}"></script>
+    <script src="{{asset('assets\js\project-2\anime.min.js')}}"></script>
+    <script src="{{asset('assets\js\project-2\main.js')}}"></script>
+    <script src="{{asset('assets\js\project-2\tilt.js')}}"></script>
 
 </body>
 <!-- // Body -->

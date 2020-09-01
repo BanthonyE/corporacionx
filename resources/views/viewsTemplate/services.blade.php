@@ -14,7 +14,7 @@
                 <div class="home-builder-page-title">
                     <h1>Our</h1>
                     <h1 class="titlecolor">Services</h1>
-                    <img src="{!! asset('assets\imgs\linew.png') !!}" alt="">
+                    <img src="{{ asset('assets\imgs\linew.png') }}" alt="">
                     <ol class="breadcrumb">
                         <li><a href="{{ route('index') }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                         <li class="active">Our Services</li>
@@ -29,11 +29,11 @@
 <div class="content-section services-main">
     <div class="container">
         <h2 class="text-center text-uppercase">Construction <span class="orange-txt">SERVICES</span></h2>
-        <div class="border-creative text-center"><img src="{!! asset('assets\imgs\borders\border.png') !!}" alt=""></div>
+        <div class="border-creative text-center"><img src="{{ asset('assets\imgs\borders\border.png') }}" alt=""></div>
         <div class="row">
             <div class="grid-2">
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <figure class="effect-jazz"> <img src="{!! asset('assets\imgs\tab\tab.jpg') !!}" class="img-fluid" alt="img25">
+                    <figure class="effect-jazz"> <img src="{{ asset('assets\imgs\tab\tab.jpg') }}" class="img-fluid" alt="img25">
                         <figcaption>
                             <h2><span>Service</span> Name</h2>
                             <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus
@@ -45,7 +45,7 @@
                             class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <figure class="effect-jazz"> <img src="{!! asset('assets\imgs\tab\tab-2.jpg') !!}" class="img-fluid" alt="img25">
+                    <figure class="effect-jazz"> <img src="{{ asset('assets\imgs\tab\tab-2.jpg') }}" class="img-fluid" alt="img25">
                         <figcaption>
                             <h2><span>Service</span> Name</h2>
                             <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus
@@ -57,7 +57,7 @@
                             class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <figure class="effect-jazz"> <img src="{!! asset('assets\imgs\tab\tab-3.jpg') !!}" class="img-fluid" alt="img25">
+                    <figure class="effect-jazz"> <img src="{{ asset('assets\imgs\tab\tab-3.jpg') }}" class="img-fluid" alt="img25">
                         <figcaption>
                             <h2><span>Service</span> Name</h2>
                             <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus
@@ -69,7 +69,7 @@
                             class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <figure class="effect-jazz"> <img src="{!! asset('assets\imgs\tab\tab-4.jpg') !!}" class="img-fluid" alt="img25">
+                    <figure class="effect-jazz"> <img src="{{ asset('assets\imgs\tab\tab-4.jpg') }}" class="img-fluid" alt="img25">
                         <figcaption>
                             <h2><span>Service</span> Name</h2>
                             <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus
@@ -81,7 +81,7 @@
                             class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <figure class="effect-jazz"> <img src="{!! asset('assets\imgs\tab\tab-5.jpg') !!}" class="img-fluid" alt="img25">
+                    <figure class="effect-jazz"> <img src="{{ asset('assets\imgs\tab\tab-5.jpg') }}" class="img-fluid" alt="img25">
                         <figcaption>
                             <h2><span>Service</span> Name</h2>
                             <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus
@@ -93,7 +93,7 @@
                             class="fa fa-long-arrow-right" aria-hidden="true"></i></a>
                 </div>
                 <div class="col-lg-4 col-md-6 col-sm-6">
-                    <figure class="effect-jazz"> <img src="{!! asset('assets\imgs\tab\tab-6.jpg') !!}" class="img-fluid" alt="img25">
+                    <figure class="effect-jazz"> <img src="{{ asset('assets\imgs\tab\tab-6.jpg') }}" class="img-fluid" alt="img25">
                         <figcaption>
                             <h2><span>Service</span> Name</h2>
                             <p>Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus
@@ -195,7 +195,8 @@
                         </div>
                     </div>
                     <div class="form-group">
-                        <input type="button" value="SUBMIT" onclick="return ajaxmailrequest();" class="btn btn-clear">
+                        {{-- <input type="button" value="SUBMIT" onclick="return ajaxmailrequest();" class="btn btn-clear"> --}}
+                        <input type="button" value="SUBMIT" onclick="" class="btn btn-clear">
                         <!--<button class="btn btn-clear">SUBMIT</button>-->
                         {{-- <button class="btn btn-clear blue-btn" value="submit">Reset</button> --}}
                         <a href="#" class="btn btn-clear blue-btn" >Reset</a>

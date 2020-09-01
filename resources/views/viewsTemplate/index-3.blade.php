@@ -9,12 +9,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon -->
-    <link rel="icon" href="assets\imgs\favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{asset('assets\imgs\favicon.ico')}}" type="image/x-icon">
     <title>Architevo Builder : Construction Services</title>
     <!-- Template CSS -->
-    <link href="assets\css\default.css" rel="stylesheet">
+    <link href="{{asset('assets\css\default.css')}}" rel="stylesheet">
     <!-- Favicon -->
-    <link rel="icon" href="assets\imgs\favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{asset('assets\imgs\favicon.ico')}}" type="image/x-icon">
 </head>
 <!-- // Head-->
 
@@ -24,8 +24,8 @@
     <!--header -->
     <div class="top-header">
         <div class="container">
-            <div class="pull-left"><a href="{{ route('index') }}" title="Home"><img src="assets\imgs\logo.png"
-                        class="logo1" title="" alt=""> </a></div>
+            <div class="pull-left"><a href="{{ route('index') }}" title="Home"><img
+                        src="{{asset('assets\imgs\logo.png')}}" class="logo1" title="" alt=""> </a></div>
             <div class="pull-right">
                 <div class="top-menu">
                     <ul>
@@ -94,7 +94,7 @@
                         </div>
                     </div>
                     <div class="pull-left fixed-menu-logo-2"><a href="{{ route('index') }}" title="Home"><img
-                                src="assets\imgs\responsive-logo-2.png" alt=""></a> </div>
+                                src="{{asset('assets\imgs\responsive-logo-2.png')}}" alt=""></a> </div>
                     <button type="button" class="navbar-toggle" data-toggle="collapse"
                         data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <i
                             class="fa fa-bars"></i></button>
@@ -102,7 +102,7 @@
                 <!-- Collect the nav links, forms, and other content for toggling -->
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <div class="pull-left fixed-menu-logo"><a href="{{ route('index') }}" title="Home"><img
-                                src="assets\imgs\responsive-logo.png" alt=""></a> </div>
+                                src="{{asset('assets\imgs\responsive-logo.png')}}" alt=""></a> </div>
                     <nav class="navbar navbar-expand-sm navbar-left">
                         <ul class="nav navbar-nav">
                             <li class="nav-item dropdown active"> <a class="nav-link dropdown-toggle"
@@ -198,8 +198,8 @@
                     <div class="clearfix"></div>
                 </div>
             </div>
-            <div class="scroll-dwn"> <a class="page-scroll dwn" href="#about"> <img src="assets\imgs\scroll-dwn.png"
-                        class="arrow bounce" alt=""></a> </div>
+            <div class="scroll-dwn"> <a class="page-scroll dwn" href="#about"> <img
+                        src="{{asset('assets\imgs\scroll-dwn.png')}}" class="arrow bounce" alt=""></a> </div>
             <ol class="carousel-indicators">
                 <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
                 <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
@@ -284,8 +284,8 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input value="SUBMIT" onclick="return ajaxmailrequest();" class="btn btn-clear"
-                                        type="button">
+                                    {{-- <input value="SUBMIT" onclick="return ajaxmailrequest();" class="btn btn-clear" type="button"> --}}
+                                    <input value="SUBMIT" onclick="" class="btn btn-clear" type="button">
                                     <!--<button class="btn btn-clear">SUBMIT</button>-->
                                     <button class="btn btn-clear blue-btn">Reset</button>
                                     <div class="loader2"></div>
@@ -306,7 +306,8 @@
             class="hotspot hotspot-subscribe"></span>
         <div class="container">
             <h2 class="text-center text-uppercase">WHAT We <span class="orange-txt">DO</span></h2>
-            <div class="border-creative text-center"><img src="assets\imgs\borders\border.png" alt=""></div>
+            <div class="border-creative text-center"><img src="{{asset('assets\imgs\borders\border.png')}}" alt="">
+            </div>
             <div class="col-xs-8">
                 <div class="col-xs-5 text-uppercase fancy-txt montserrat wow fadeInLeft" data-wow-duration="900ms"
                     data-wow-delay="200ms">We like build things with fun.</div>
@@ -320,7 +321,7 @@
                 <div class="clearfix"></div>
             </div>
             <div class="col-xs-4 no-padding wow fadeInRight" data-wow-duration="900ms" data-wow-delay="600ms"><img
-                    src="assets\imgs\about\abt.png" alt="" class="img-responsive home-abt"></div>
+                    src="{{asset('assets\imgs\about\abt.png')}}" alt="" class="img-responsive home-abt"></div>
             <div class="clearfix"></div>
         </div>
     </div>
@@ -329,7 +330,8 @@
     <div class="content-section light-bg top-tabs">
         <div class="container">
             <h2 class="text-center text-uppercase">Our <span class="orange-txt">Services</span></h2>
-            <div class="border-creative text-center"><img src="assets\imgs\borders\border.png" alt=""></div>
+            <div class="border-creative text-center"><img src="{{asset('assets\imgs\borders\border.png')}}" alt="">
+            </div>
             <div class="tabs-left">
                 <div class="col-xs-3 no-padding wow fadeInLeft" data-wow-duration="900ms" data-wow-delay="200ms">
                     <ul class="nav nav-tabs">
@@ -353,7 +355,7 @@
                 <div class="col-xs-9 wow fadeInRight" data-wow-duration="900ms" data-wow-delay="400ms">
                     <div class="tab-content">
                         <div class="tab-pane active" id="a">
-                            <div class="col-xs-6 no-padding"><img src="assets\imgs\tab\tab.jpg" alt=""
+                            <div class="col-xs-6 no-padding"><img src="{{asset('assets\imgs\tab\tab.jpg')}}" alt=""
                                     class="img-fluid"></div>
                             <div class="col-xs-6">
                                 <h3>General Contracting</h3>
@@ -397,7 +399,7 @@
                             <div class="clearfix"></div>
                         </div>
                         <div class="tab-pane" id="b">
-                            <div class="col-xs-6 no-padding"><img src="assets\imgs\tab\tab-2.jpg" alt=""
+                            <div class="col-xs-6 no-padding"><img src="{{asset('assets\imgs\tab\tab-2.jpg')}}" alt=""
                                     class="img-fluid"></div>
                             <div class="col-xs-6">
                                 <h3>Construction Services</h3>
@@ -440,7 +442,7 @@
                             </div>
                         </div>
                         <div class="tab-pane" id="c">
-                            <div class="col-xs-6 no-padding"><img src="assets\imgs\tab\tab-3.jpg" alt=""
+                            <div class="col-xs-6 no-padding"><img src="{{asset('assets\imgs\tab\tab-3.jpg')}}" alt=""
                                     class="img-fluid"></div>
                             <div class="col-xs-6">
                                 <h3>Building Modeling</h3>
@@ -483,7 +485,7 @@
                             </div>
                         </div>
                         <div class="tab-pane" id="d">
-                            <div class="col-xs-6 no-padding"><img src="assets\imgs\tab\tab-4.jpg" alt=""
+                            <div class="col-xs-6 no-padding"><img src="{{asset('assets\imgs\tab\tab-4.jpg')}}" alt=""
                                     class="img-fluid"></div>
                             <div class="col-xs-6">
                                 <h3>Pre-construction</h3>
@@ -526,7 +528,7 @@
                             </div>
                         </div>
                         <div class="tab-pane" id="e">
-                            <div class="col-xs-6 no-padding"><img src="assets\imgs\tab\tab-5.jpg" alt=""
+                            <div class="col-xs-6 no-padding"><img src="{{asset('assets\imgs\tab\tab-5.jpg')}}" alt=""
                                     class="img-fluid"></div>
                             <div class="col-xs-6">
                                 <h3>Management</h3>
@@ -581,90 +583,100 @@
         <div class="pattern"></div>
         <div class="container">
             <h2 class="text-center text-uppercase">Our Latest <span class="orange-txt">Projects</span></h2>
-            <div class="border-creative text-center"><img src="assets\imgs\borders\border-2.png" alt=""></div>
+            <div class="border-creative text-center"><img src="{{asset('assets\imgs\borders\border-2.png')}}" alt="">
+            </div>
             <div class="col-xs-2 wow fadeIn" data-wow-duration="900ms" data-wow-delay="100ms">
 
                 <div class="gamma-description montserrat"> <a href="{{ route('project-details') }}" class="full-link"
                         title=""></a>
-                    <h3> <img src="assets\imgs\icons\search.png" alt=""> <span class="clearfix"></span> Neque porro
+                    <h3> <img src="{{asset('assets\imgs\icons\search.png')}}" alt=""> <span class="clearfix"></span>
+                        Neque porro
                         quisquam </h3>
                     <p>Design / Build</p>
                 </div>
-                <img src="assets\imgs\projects\project1.jpg" alt="" class="img-fluid">
+                <img src="{{asset('assets\imgs\projects\project1.jpg')}}" alt="" class="img-fluid">
             </div>
             <div class="col-xs-2 wow fadeIn" data-wow-duration="900ms" data-wow-delay="150ms">
                 <div class="gamma-description montserrat"><a href="{{ route('project-details') }}" class="full-link"
                         title=""></a>
-                    <h3> <img src="assets\imgs\icons\search.png" alt=""> <span class="clearfix"></span> Neque porro
+                    <h3> <img src="{{asset('assets\imgs\icons\search.png')}}" alt=""> <span class="clearfix"></span>
+                        Neque porro
                         quisquam </h3>
                     <p>Design / Build</p>
                 </div>
-                <img src="assets\imgs\projects\project2.jpg" alt="" class="img-fluid">
+                <img src="{{asset('assets\imgs\projects\project2.jpg')}}" alt="" class="img-fluid">
             </div>
             <div class="col-xs-4 wow fadeIn" data-wow-duration="900ms" data-wow-delay="200ms">
                 <div class="gamma-description montserrat"><a href="{{ route('project-details') }}" class="full-link"
                         title=""></a>
-                    <h3> <img src="assets\imgs\icons\search.png" alt=""> <span class="clearfix"></span> Neque porro
+                    <h3> <img src="{{asset('assets\imgs\icons\search.png')}}" alt=""> <span class="clearfix"></span>
+                        Neque porro
                         quisquam </h3>
                     <p>Design / Build</p>
                 </div>
-                <img src="assets\imgs\projects\project-3.jpg" alt="" class="img-fluid">
+                <img src="{{asset('assets\imgs\projects\project-3.jpg')}}" alt="" class="img-fluid">
                 <div class="clearfix"></div>
             </div>
             <div class="col-xs-2 wow fadeIn" data-wow-duration="900ms" data-wow-delay="250ms">
                 <div class="gamma-description montserrat"><a href="{{ route('project-details') }}" class="full-link"
                         title=""></a>
-                    <h3> <img src="assets\imgs\icons\search.png" alt=""> <span class="clearfix"></span> Neque porro
+                    <h3> <img src="{{asset('assets\imgs\icons\search.png')}}" alt=""> <span class="clearfix"></span>
+                        Neque porro
                         quisquam </h3>
                     <p>Design / Build</p>
                 </div>
-                <img src="assets\imgs\projects\project4.jpg" alt="" class="img-fluid">
+                <img src="{{asset('assets\imgs\projects\project4.jpg')}}" alt="" class="img-fluid">
             </div>
             <div class="col-xs-2 wow fadeIn" data-wow-duration="900ms" data-wow-delay="300ms">
                 <div class="gamma-description montserrat"><a href="{{ route('project-details') }}" class="full-link"
                         title=""></a>
-                    <h3> <img src="assets\imgs\icons\search.png" alt=""> <span class="clearfix"></span> Neque porro
+                    <h3> <img src="{{asset('assets\imgs\icons\search.png')}}" alt=""> <span class="clearfix"></span>
+                        Neque porro
                         quisquam </h3>
                     <p>Design / Build</p>
                 </div>
-                <img src="assets\imgs\projects\project5.jpg" alt="" class="img-fluid">
+                <img src="{{asset('assets\imgs\projects\project5.jpg')}}" alt="" class="img-fluid">
             </div>
             <div class="col-xs-4 wow fadeIn" data-wow-duration="900ms" data-wow-delay="500ms">
                 <div class="gamma-description montserrat"><a href="{{ route('project-details') }}" class="full-link"
                         title=""></a>
-                    <h3> <img src="assets\imgs\icons\search.png" alt=""> <span class="clearfix"></span> Neque porro
+                    <h3> <img src="{{asset('assets\imgs\icons\search.png')}}" alt=""> <span class="clearfix"></span>
+                        Neque porro
                         quisquam </h3>
                     <p>Design / Build</p>
                 </div>
-                <img src="assets\imgs\projects\project-6.jpg" alt="" class="img-fluid">
+                <img src="{{asset('assets\imgs\projects\project-6.jpg')}}" alt="" class="img-fluid">
             </div>
             <div class="col-xs-2 wow fadeIn" data-wow-duration="900ms" data-wow-delay="450ms">
                 <div class="gamma-description montserrat"><a href="{{ route('project-details') }}" class="full-link"
                         title=""></a>
-                    <h3> <img src="assets\imgs\icons\search.png" alt=""> <span class="clearfix"></span> Neque porro
+                    <h3> <img src="{{asset('assets\imgs\icons\search.png')}}" alt=""> <span class="clearfix"></span>
+                        Neque porro
                         quisquam </h3>
                     <p>Design / Build</p>
                 </div>
-                <img src="assets\imgs\projects\project8.jpg" alt="" class="img-fluid">
+                <img src="{{asset('assets\imgs\projects\project8.jpg')}}" alt="" class="img-fluid">
             </div>
             <div class="col-xs-2 wow fadeIn" data-wow-duration="900ms" data-wow-delay="400ms">
                 <div class="gamma-description montserrat"><a href="{{ route('project-details') }}" class="full-link"
                         title=""></a>
-                    <h3> <img src="assets\imgs\icons\search.png" alt=""> <span class="clearfix"></span> Neque porro
+                    <h3> <img src="{{asset('assets\imgs\icons\search.png')}}" alt=""> <span class="clearfix"></span>
+                        Neque porro
                         quisquam </h3>
                     <p>Design / Build</p>
                 </div>
-                <img src="assets\imgs\projects\project-7.jpg" alt="" class="img-fluid">
+                <img src="{{asset('assets\imgs\projects\project-7.jpg')}}" alt="" class="img-fluid">
                 <div class="clearfix"></div>
             </div>
             <div class="col-xs-4 wow fadeIn" data-wow-duration="900ms" data-wow-delay="350ms">
                 <div class="gamma-description montserrat"><a href="{{ route('project-details') }}" class="full-link"
                         title=""></a>
-                    <h3> <img src="assets\imgs\icons\search.png" alt=""> <span class="clearfix"></span> Neque porro
+                    <h3> <img src="{{asset('assets\imgs\icons\search.png')}}" alt=""> <span class="clearfix"></span>
+                        Neque porro
                         quisquam </h3>
                     <p>Design / Build</p>
                 </div>
-                <img src="assets\imgs\projects\project-10.jpg" alt="" class="img-fluid">
+                <img src="{{asset('assets\imgs\projects\project-10.jpg')}}" alt="" class="img-fluid">
             </div>
             <div class="clearfix"></div>
         </div>
@@ -674,17 +686,19 @@
     </div>
     <!--\\ Projects -->
     <!-- company certifications -->
-    <div class="content-section company-certification" id="set-7"> <img src="assets\imgs\services-right.jpg"
-            class="img-responsive right-services" alt="">
+    <div class="content-section company-certification" id="set-7"> <img
+            src="{{asset('assets\imgs\services-right.jpg')}}" class="img-responsive right-services" alt="">
         <div class="container">
             <h2 class="text-center text-uppercase">Company <span class="orange-txt">CERTIFICATIONS</span></h2>
-            <div class="border-creative text-center"><img src="assets\imgs\borders\border.png" alt=""></div>
+            <div class="border-creative text-center"><img src="{{asset('assets\imgs\borders\border.png')}}" alt="">
+            </div>
             <div class="row">
                 <div class="col-xs-3 text-center">
                     <div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7a wow fadeInUp" data-wow-duration="900ms"
                         data-wow-delay="100ms">
-                        <div class="hi-icon"><img src="assets\imgs\circle-icons\contracting.png" class="img-1"
-                                alt=""><img src="assets\imgs\circle-icons\contracting-hover.png" class="img-2" alt="">
+                        <div class="hi-icon"><img src="{{asset('assets\imgs\circle-icons\contracting.png')}}"
+                                class="img-1" alt=""><img
+                                src="{{asset('assets\imgs\circle-icons\contracting-hover.png')}}" class="img-2" alt="">
                         </div>
                     </div>
 
@@ -698,8 +712,9 @@
                 <div class="col-xs-3 text-center">
                     <div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7a wow fadeInUp" data-wow-duration="900ms"
                         data-wow-delay="200ms">
-                        <div class="hi-icon"><img src="assets\imgs\circle-icons\building.png" class="img-1" alt=""><img
-                                src="assets\imgs\circle-icons\building-hover.png" class="img-2" alt=""></div>
+                        <div class="hi-icon"><img src="{{asset('assets\imgs\circle-icons\building.png')}}" class="img-1"
+                                alt=""><img src="{{asset('assets\imgs\circle-icons\building-hover.png')}}" class="img-2"
+                                alt=""></div>
                     </div>
                     <div class="wow fadeInDown" data-wow-duration="900ms" data-wow-delay="250ms">
                         <h3 class="open-sans">Building Modeling</h3>
@@ -710,8 +725,9 @@
                 <div class="col-xs-3 text-center">
                     <div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7a wow fadeInUp" data-wow-duration="900ms"
                         data-wow-delay="300ms">
-                        <div class="hi-icon"><img src="assets\imgs\circle-icons\design.png" class="img-1" alt=""><img
-                                src="assets\imgs\circle-icons\design-hover.png" class="img-2" alt=""></div>
+                        <div class="hi-icon"><img src="{{asset('assets\imgs\circle-icons\design.png')}}" class="img-1"
+                                alt=""><img src="{{asset('assets\imgs\circle-icons\design-hover.png')}}" class="img-2"
+                                alt=""></div>
                     </div>
                     <div class="wow fadeInDown" data-wow-duration="900ms" data-wow-delay="350ms">
                         <h3 class="open-sans">Building Design</h3>
@@ -722,8 +738,9 @@
                 <div class="col-xs-3 text-center">
                     <div class="hi-icon-wrap hi-icon-effect-7 hi-icon-effect-7a wow fadeInUp" data-wow-duration="900ms"
                         data-wow-delay="400ms">
-                        <div class="hi-icon"><img src="assets\imgs\circle-icons\services.png" class="img-1" alt=""><img
-                                src="assets\imgs\circle-icons\services-hover.png" class="img-2" alt=""></div>
+                        <div class="hi-icon"><img src="{{asset('assets\imgs\circle-icons\services.png')}}" class="img-1"
+                                alt=""><img src="{{asset('assets\imgs\circle-icons\services-hover.png')}}" class="img-2"
+                                alt=""></div>
                     </div>
                     <div class="wow fadeInDown" data-wow-duration="900ms" data-wow-delay="450ms">
                         <h3 class="open-sans">Construction Services</h3>
@@ -742,13 +759,16 @@
         <div class="pattern-2"></div>
         <div class="container">
             <h2 class="text-center text-uppercase">SUBSCRIBE FOR <span class="orange-txt">OUR NEWSLETTER!</span></h2>
-            <div class="border-creative text-center"><img src="assets\imgs\borders\border-2.png" alt="" title=""></div>
+            <div class="border-creative text-center"><img src="{{asset('assets\imgs\borders\border-2.png')}}" alt=""
+                    title=""></div>
             <p>Sign up to our newsletter subscription and be the first to know about latest company news, special offers
                 and discounts.</p>
-            <form method="post" id="subsMiddleForm" onsubmit="return ajaxmailmiddlesubscribe();">
+            {{-- <form method="post" id="subsMiddleForm" onsubmit="return ajaxmailmiddlesubscribe();"> --}}
+            <form method="post" id="subsMiddleForm" onsubmit="">
                 <input type="hidden" name="from" value="index.html">
                 <input type="email" name="subsmiddleemail" id="subsmiddleemail" placeholder="Enter your Email Address">
-                <input type="button" value="SUBSCRIBE NOW" onclick="return ajaxmailmiddlesubscribe();">
+                {{-- <input type="button" value="SUBSCRIBE NOW" onclick="return ajaxmailmiddlesubscribe();"> --}}
+                <input type="button" value="SUBSCRIBE NOW" onclick="">
             </form>
         </div>
     </div>
@@ -758,7 +778,7 @@
         <div class="container">
             <h2 class="text-center text-uppercase">Our Expert <span class="orange-txt">Staff</span></h2>
             <div class="border-creative text-center">
-                <img src="assets\imgs\borders\border.png" alt=""></div>
+                <img src="{{asset('assets\imgs\borders\border.png')}}" alt=""></div>
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <div class="">
@@ -1162,7 +1182,8 @@
     <div class="content-section news-section">
         <div class="container">
             <h2 class="text-center text-uppercase">Our Latest <span class="orange-txt">News</span></h2>
-            <div class="border-creative text-center"><img src="assets\imgs\borders\border.png" alt=""></div>
+            <div class="border-creative text-center"><img src="{{asset('assets\imgs\borders\border.png')}}" alt="">
+            </div>
             <div class="owl-carousel owl-theme wow fadeIn" data-wow-duration="900ms" data-wow-delay="250ms">
                 <div class="item">
                     <div>
@@ -1172,7 +1193,7 @@
                                     <div class="linkss"><a href="{{ route('blog-details') }}"><span><i
                                                     class="fa fa-search" aria-hidden="true"></i></span></a> </div>
                                 </div>
-                                <img src="assets\imgs\news\news-1.jpg" class="img-fluid" alt="img04">
+                                <img src="{{asset('assets\imgs\news\news-1.jpg')}}" class="img-fluid" alt="img04">
                                 <div class="figcaption">
                                     <div class="heading montserrat">
                                         <h3>Neque porro quisquam </h3>
@@ -1198,7 +1219,7 @@
                                     <div class="linkss"><a href="{{ route('blog-details') }}"><span><i
                                                     class="fa fa-search" aria-hidden="true"></i></span></a> </div>
                                 </div>
-                                <img src="assets\imgs\news\news-2.jpg" class="img-fluid" alt="img04">
+                                <img src="{{asset('assets\imgs\news\news-2.jpg')}}" class="img-fluid" alt="img04">
                                 <div class="figcaption">
                                     <div class="heading montserrat">
                                         <h3>Neque porro quisquam </h3>
@@ -1224,7 +1245,7 @@
                                     <div class="linkss"><a href="{{ route('blog-details') }}"><span><i
                                                     class="fa fa-search" aria-hidden="true"></i></span></a> </div>
                                 </div>
-                                <img src="assets\imgs\news\news-3.jpg" class="img-fluid" alt="img04">
+                                <img src="{{asset('assets\imgs\news\news-3.jpg')}}" class="img-fluid" alt="img04">
                                 <div class="figcaption">
                                     <div class="heading montserrat">
                                         <h3>Neque porro quisquam </h3>
@@ -1250,7 +1271,7 @@
                                     <div class="linkss"><a href="{{ route('blog-details') }}"><span><i
                                                     class="fa fa-search" aria-hidden="true"></i></span></a> </div>
                                 </div>
-                                <img src="assets\imgs\news\news-4.jpg" class="img-fluid" alt="img04">
+                                <img src="{{asset('assets\imgs\news\news-4.jpg')}}" class="img-fluid" alt="img04">
                                 <div class="figcaption">
                                     <div class="heading montserrat">
                                         <h3>Neque porro quisquam </h3>
@@ -1276,7 +1297,7 @@
                                     <div class="linkss"><a href="{{ route('blog-details') }}"><span><i
                                                     class="fa fa-search" aria-hidden="true"></i></span></a> </div>
                                 </div>
-                                <img src="assets\imgs\news\news-1.jpg" class="img-fluid" alt="img04">
+                                <img src="{{asset('assets\imgs\news\news-1.jpg')}}" class="img-fluid" alt="img04">
                                 <div class="figcaption">
                                     <div class="heading montserrat">
                                         <h3>Neque porro quisquam </h3>
@@ -1302,7 +1323,7 @@
                                     <div class="linkss"><a href="{{ route('blog-details') }}"><span><i
                                                     class="fa fa-search" aria-hidden="true"></i></span></a> </div>
                                 </div>
-                                <img src="assets\imgs\news\news-2.jpg" class="img-fluid" alt="img04">
+                                <img src="{{asset('assets\imgs\news\news-2.jpg')}}" class="img-fluid" alt="img04">
                                 <div class="figcaption">
                                     <div class="heading montserrat">
                                         <h3>Neque porro quisquam </h3>
@@ -1328,7 +1349,7 @@
                                     <div class="linkss"><a href="{{ route('blog-details') }}"><span><i
                                                     class="fa fa-search" aria-hidden="true"></i></span></a> </div>
                                 </div>
-                                <img src="assets\imgs\news\news-3.jpg" class="img-fluid" alt="img04">
+                                <img src="{{asset('assets\imgs\news\news-3.jpg')}}" class="img-fluid" alt="img04">
                                 <div class="figcaption">
                                     <div class="heading montserrat">
                                         <h3>Neque porro quisquam </h3>
@@ -1354,7 +1375,7 @@
                                     <div class="linkss"><a href="{{ route('blog-details') }}"><span><i
                                                     class="fa fa-search" aria-hidden="true"></i></span></a> </div>
                                 </div>
-                                <img src="assets\imgs\news\news-4.jpg" class="img-fluid" alt="img04">
+                                <img src="{{asset('assets\imgs\news\news-4.jpg')}}" class="img-fluid" alt="img04">
                                 <div class="figcaption">
                                     <div class="heading montserrat">
                                         <h3>Neque porro quisquam </h3>
@@ -1391,9 +1412,10 @@
                         <blockquote>
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <div class="img-and-name"> <img src="assets\imgs\icons\quote.png"
+                                    <div class="img-and-name"> <img src="{{asset('assets\imgs\icons\quote.png')}}"
                                             class="quote-icon img-fluid" alt=""> <img style="width: 100px;height:100px;"
-                                            src="assets\imgs\clients\client-1.jpg" class="img-circle" alt="">
+                                            src="{{asset('assets\imgs\clients\client-1.jpg')}}" class="img-circle"
+                                            alt="">
                                         <div class="clearfix"></div>
                                     </div>
                                     <p class="quote-para">Neque porro quisquam est qui dolorem ipsum quia dolor sit
@@ -1407,9 +1429,10 @@
                         <blockquote>
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <div class="img-and-name"> <img src="assets\imgs\icons\quote.png"
+                                    <div class="img-and-name"> <img src="{{asset('assets\imgs\icons\quote.png')}}"
                                             class="quote-icon img-fluid" alt=""> <img style="width: 100px;height:100px;"
-                                            src="assets\imgs\clients\client-2.jpg" class="img-circle" alt="">
+                                            src="{{asset('assets\imgs\clients\client-2.jpg')}}" class="img-circle"
+                                            alt="">
                                         <div class="clearfix"></div>
                                     </div>
                                     <p class="quote-para">Neque porro quisquam est qui dolorem ipsum quia dolor sit
@@ -1423,9 +1446,9 @@
                         <blockquote>
                             <div class="row">
                                 <div class="col-xs-12">
-                                    <div class="img-and-name"> <img src="assets\imgs\icons\quote.png"
+                                    <div class="img-and-name"> <img src="{{asset('assets\imgs\icons\quote.png')}}"
                                             class="quote-icon img-fluid" alt=""> <img style="width: 100px;height:100px;"
-                                            src="assets\imgs\clients\client.jpg" class="img-circle" alt="">
+                                            src="{{asset('assets\imgs\clients\client.jpg')}}" class="img-circle" alt="">
                                         <div class="clearfix"></div>
                                     </div>
                                     <p class="quote-para">Neque porro quisquam est qui dolorem ipsum quia dolor sit
@@ -1447,19 +1470,20 @@
     <div class="footer-logos content-section">
         <div class="container">
             <h2 class="text-center text-uppercase">Our <span class="orange-txt">Clients</span></h2>
-            <div class="border-creative text-center"><img src="assets\imgs\borders\border.png" alt=""></div>
+            <div class="border-creative text-center"><img src="{{asset('assets\imgs\borders\border.png')}}" alt="">
+            </div>
             <p class="clients-para">Our Clients are super important for our well being</p>
             <div id="owl-demo" class="owl-carousel owl-carousel-2">
-                <div class="item"><img src="assets\imgs\logo-carousel\logo1.png" alt=""></div>
-                <div class="item"><img src="assets\imgs\logo-carousel\logo2.png" alt=""></div>
-                <div class="item"><img src="assets\imgs\logo-carousel\logo3.png" alt=""></div>
-                <div class="item"><img src="assets\imgs\logo-carousel\logo4.png" alt=""></div>
-                <div class="item"><img src="assets\imgs\logo-carousel\logo5.png" alt=""></div>
-                <div class="item"><img src="assets\imgs\logo-carousel\logo1.png" alt=""></div>
-                <div class="item"><img src="assets\imgs\logo-carousel\logo2.png" alt=""></div>
-                <div class="item"><img src="assets\imgs\logo-carousel\logo3.png" alt=""></div>
-                <div class="item"><img src="assets\imgs\logo-carousel\logo4.png" alt=""></div>
-                <div class="item"><img src="assets\imgs\logo-carousel\logo5.png" alt=""></div>
+                <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo1.png')}}" alt=""></div>
+                <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo2.png')}}" alt=""></div>
+                <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo3.png')}}" alt=""></div>
+                <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo4.png')}}" alt=""></div>
+                <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo5.png')}}" alt=""></div>
+                <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo1.png')}}" alt=""></div>
+                <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo2.png')}}" alt=""></div>
+                <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo3.png')}}" alt=""></div>
+                <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo4.png')}}" alt=""></div>
+                <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo5.png')}}" alt=""></div>
             </div>
         </div>
     </div>
@@ -1505,7 +1529,8 @@
             <div class="container">
                 <div class="row">
                     <div class="col-lg-3 col-md-6 wow fadeIn" data-wow-duration="900ms" data-wow-delay="150ms">
-                        <div class="foot-logo"> <img src="assets\imgs\footer-logo.png" alt="" class="img-fluid"> </div>
+                        <div class="foot-logo"> <img src="{{asset('assets\imgs\footer-logo.png')}}" alt=""
+                                class="img-fluid"> </div>
                         <div class="foot-content">
                             <p>Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci
                                 velit. Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur,
@@ -1558,11 +1583,12 @@
                         <div class="foot-logo">
                             <h3 class="montserrat">SIGN UP TO OUR NEWSLETTER</h3>
                         </div>
-                        <form method="post" id="subsForm" class="footer-subscribe montserrat text-center"
-                            onsubmit="return ajaxmailsubscribe();">
+                        {{-- <form method="post" id="subsForm" class="footer-subscribe montserrat text-center" onsubmit="return ajaxmailsubscribe();"> --}}
+                        <form method="post" id="subsForm" class="footer-subscribe montserrat text-center" onsubmit="">
                             <input type="hidden" name="from" value="index.html">
                             <input type="email" name="subsemail" id="subsemail" placeholder="Enter your Email here">
-                            <input type="button" value="SUBSCRIBE" onclick="return ajaxmailsubscribe();">
+                            {{-- <input type="button" value="SUBSCRIBE" onclick="return ajaxmailsubscribe();"> --}}
+                            <input type="button" value="SUBSCRIBE" onclick="">
                             <p>We never spam your email <span class="orange-txt">(*)</span> </p>
                         </form>
                     </div>
@@ -1611,20 +1637,20 @@
     <!-- Form Submission Popup -->
     <!-- Jquery Section -->
     <!-- Form Script -->
-    <script src="assets\js\ajax.js"></script>
-    <script src="assets\js\formValidation.js"></script>
+    <script src="{{asset('assets\js\ajax.js')}}"></script>
+    <script src="{{asset('assets\js\formValidation.js')}}"></script>
     <!-- JavaScript Library-->
-    <script src="assets\js\jquery-2.2.4.min.js"></script>
+    <script src="{{asset('assets\js\jquery-2.2.4.min.js')}}"></script>
     <!-- Bootstrap v4.1.3 JavaScript -->
-    <script src="assets\js\bootstrap.min.js"></script>
+    <script src="{{asset('assets\js\bootstrap.min.js')}}"></script>
     <!-- Bootstrap Core JavaScript -->
-    <script src="assets\js\owlcarousel\owl.carousel.staff.js"></script>
-    <script src="assets\js\wow.min.js"></script>
-    <script src="assets\js\custom-index.js"></script>
-    <script src="assets\js\classie.js"></script>
-    <script src="assets\js\cbpAnimatedHeader.js"></script>
+    <script src="{{asset('assets\js\owlcarousel\owl.carousel.staff.js')}}"></script>
+    <script src="{{asset('assets\js\wow.min.js')}}"></script>
+    <script src="{{asset('assets\js\custom-index.js')}}"></script>
+    <script src="{{asset('assets\js\classie.js')}}"></script>
+    <script src="{{asset('assets\js\cbpAnimatedHeader.js')}}"></script>
     <!-- Number Counter -->
-    <script src="assets\js\numscroller-1.0.js"></script>
+    <script src="{{asset('assets\js\numscroller-1.0.js')}}"></script>
 </body>
 <!-- // Body -->
 

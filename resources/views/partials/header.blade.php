@@ -2,7 +2,7 @@
 <div class="top-header">
     <div class="container">
         <div class="pull-left"><a href="{{route('index')}}" title="Home"><img
-                    src="{!! asset('assets\imgs\logo.png') !!}" class="logo1" title="" alt=""> </a></div>
+                    src="{{ asset('assets\imgs\logo.png') }}" class="logo1" title="" alt=""> </a></div>
         <div class="pull-right">
             <div class="top-menu">
                 <ul>
@@ -71,7 +71,7 @@
                     </div>
                 </div>
                 <div class="pull-left fixed-menu-logo-2"><a href="{{route('index')}}" title="Home"><img
-                            src="{!! asset('assets\imgs\responsive-logo-2.png') !!}" alt=""></a> </div>
+                            src="{{ asset('assets\imgs\responsive-logo-2.png') }}" alt=""></a> </div>
                 <button type="button" class="navbar-toggle" data-toggle="collapse"
                     data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span> <i
                         class="fa fa-bars"></i></button>
@@ -79,7 +79,7 @@
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <div class="pull-left fixed-menu-logo"><a href="{{ route('index') }}" title="Home"><img
-                            src="{!! asset('assets\imgs\responsive-logo.png') !!}" alt=""></a> </div>
+                            src="{{ asset('assets\imgs\responsive-logo.png') }}" alt=""></a> </div>
                 <nav class="navbar navbar-expand-sm navbar-left">
                     <ul class="nav navbar-nav">
                         
@@ -217,10 +217,12 @@
                                 </div>
                             </div>
                             <div class="form-group">
-                                <input value="SUBMIT" onclick="return ajaxmailrequest();" class="btn btn-clear"
+                                {{-- <input value="SUBMIT" onclick="return ajaxmailrequest();" class="btn btn-clear" --}}
+                                <input value="SUBMIT" onclick="" class="btn btn-clear"
                                     type="button">
                                 <!--<button class="btn btn-clear">SUBMIT</button>-->
-                                <button class="btn btn-clear blue-btn">Reset</button>
+                                {{-- <button class="btn btn-clear blue-btn">Reset</button> --}}
+                                <a href="#" class="btn btn-clear blue-btn">Reset</a>
                                 <div class="loader2"></div>
                             </div>
                         </form>

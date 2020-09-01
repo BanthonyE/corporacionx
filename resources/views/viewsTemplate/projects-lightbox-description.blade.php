@@ -10,9 +10,9 @@
     <meta name="author" content="">
     <title>Architevo Builder : Construction Services</title>
     <!-- Favicon -->
-    <link rel="icon" href="assets\imgs\favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{asset('assets\imgs\favicon.ico')}}" type="image/x-icon">
     <!-- Template CSS -->
-    <link href="assets\css\default.css" rel="stylesheet">
+    <link href="{{asset('assets\css\default.css')}}" rel="stylesheet">
 </head>
 <!-- //  Head-->
 
@@ -29,7 +29,7 @@
                     <div class="home-builder-page-title">
                         <h1>Our Projects</h1>
                         <h1 class="titlecolor">Lightbox Description</h1>
-                        <img src="assets\imgs\linew.png" alt="">
+                        <img src="{{asset('assets\imgs\linew.png')}}" alt="">
                         <ol class="breadcrumb">
                             <li><a href="{{ route('index') }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
                             </li>
@@ -46,7 +46,7 @@
         <div class="container">
             <h2 class="text-center text-uppercase">Our <span class="orange-txt">Latest Portfolio</span></h2>
 
-            <div class="border-creative text-center"><img src="assets\imgs\borders\border.png" alt=""></div>
+            <div class="border-creative text-center"><img src="{{asset('assets\imgs\borders\border.png')}}" alt=""></div>
             <div class="">
                 <ul id="filters" class="clearfix montserrat">
                     <li><span class="filter " data-filter=".app, .card, .icon, .logo, .web">All</span></li>
@@ -60,7 +60,7 @@
                 <div class="">
                     <div id="portfoliolist">
                         <div class="portfolio logo" data-cat="logo">
-                            <div class="prtfl-bx text-center"> <img src="assets\imgs\projects\image-1.jpg"
+                            <div class="prtfl-bx text-center"> <img src="{{asset('assets\imgs\projects\image-1.jpg')}}"
                                     alt="prtfl-img1-1.jpg">
                                 <div class="prtfl-inf">
                                     <div class="prtfl-inf-btns2"><a data-fancybox="" data-src="#trueModal"
@@ -71,7 +71,7 @@
                             </div>
                         </div>
                         <div class="portfolio logo" data-cat="logo">
-                            <div class="prtfl-bx text-center"> <img src="assets\imgs\projects\image-2.jpg"
+                            <div class="prtfl-bx text-center"> <img src="{{asset('assets\imgs\projects\image-2.jpg')}}"
                                     alt="prtfl-img1-1.jpg">
                                 <div class="prtfl-inf">
                                     <div class="prtfl-inf-btns2"><a data-fancybox="" data-src="#trueModal"
@@ -82,7 +82,7 @@
                             </div>
                         </div>
                         <div class="portfolio logo" data-cat="logo">
-                            <div class="prtfl-bx text-center"> <img src="assets\imgs\projects\image-3.jpg"
+                            <div class="prtfl-bx text-center"> <img src="{{asset('assets\imgs\projects\image-3.jpg')}}"
                                     alt="prtfl-img1-1.jpg">
                                 <div class="prtfl-inf">
                                     <div class="prtfl-inf-btns2"><a data-fancybox="" data-src="#trueModal"
@@ -93,7 +93,7 @@
                             </div>
                         </div>
                         <div class="portfolio card" data-cat="card">
-                            <div class="prtfl-bx text-center"> <img src="assets\imgs\projects\image-4.jpg"
+                            <div class="prtfl-bx text-center"> <img src="{{asset('assets\imgs\projects\image-4.jpg')}}"
                                     alt="prtfl-img1-1.jpg">
                                 <div class="prtfl-inf">
                                     <div class="prtfl-inf-btns2"><a data-fancybox="" data-src="#trueModal"
@@ -104,7 +104,7 @@
                             </div>
                         </div>
                         <div class="portfolio card" data-cat="card">
-                            <div class="prtfl-bx text-center"> <img src="assets\imgs\projects\image-5.jpg"
+                            <div class="prtfl-bx text-center"> <img src="{{asset('assets\imgs\projects\image-5.jpg')}}"
                                     alt="prtfl-img1-1.jpg">
                                 <div class="prtfl-inf">
                                     <div class="prtfl-inf-btns2"><a data-fancybox="" data-src="#trueModal"
@@ -115,7 +115,7 @@
                             </div>
                         </div>
                         <div class="portfolio app" data-cat="app">
-                            <div class="prtfl-bx text-center"> <img src="assets\imgs\projects\image-6.jpg"
+                            <div class="prtfl-bx text-center"> <img src="{{asset('assets\imgs\projects\image-6.jpg')}}"
                                     alt="prtfl-img1-1.jpg">
                                 <div class="prtfl-inf">
                                     <div class="prtfl-inf-btns2"><a data-fancybox="" data-src="#trueModal"
@@ -126,7 +126,7 @@
                             </div>
                         </div>
                         <div class="portfolio app" data-cat="app">
-                            <div class="prtfl-bx text-center"> <img src="assets\imgs\projects\image-7.jpg"
+                            <div class="prtfl-bx text-center"> <img src="{{asset('assets\imgs\projects\image-7.jpg')}}"
                                     alt="prtfl-img1-1.jpg">
                                 <div class="prtfl-inf">
                                     <div class="prtfl-inf-btns2"><a data-fancybox="" data-src="#trueModal"
@@ -137,7 +137,7 @@
                             </div>
                         </div>
                         <div class="portfolio app" data-cat="app">
-                            <div class="prtfl-bx text-center"> <img src="assets\imgs\projects\image-8.jpg"
+                            <div class="prtfl-bx text-center"> <img src="{{asset('assets\imgs\projects\image-8.jpg')}}"
                                     alt="prtfl-img1-1.jpg">
                                 <div class="prtfl-inf">
                                     <div class="prtfl-inf-btns2"><a data-fancybox="" data-src="#trueModal"
@@ -148,7 +148,7 @@
                             </div>
                         </div>
                         <div class="portfolio app" data-cat="app">
-                            <div class="prtfl-bx text-center"> <img src="assets\imgs\projects\image-9.jpg"
+                            <div class="prtfl-bx text-center"> <img src="{{asset('assets\imgs\projects\image-9.jpg')}}"
                                     alt="prtfl-img1-1.jpg">
                                 <div class="prtfl-inf">
                                     <div class="prtfl-inf-btns2"><a data-fancybox="" data-src="#trueModal"
@@ -234,22 +234,22 @@
 
     <!-- Jquery Section  -->
     <!-- Form Script -->
-    <script src="assets\js\ajax.js"></script>
-    <script src="assets\js\formValidation.js"></script>
+    <script src="{{asset('assets\js\ajax.js')}}"></script>
+    <script src="{{asset('assets\js\formValidation.js')}}"></script>
     <!--  Javascript Library -->
-    <script src="assets\js\jquery-2.2.4.min.js"></script>
-    <script src="assets\js\jquery.mixitup.min.js"></script>
+    <script src="{{asset('assets\js\jquery-2.2.4.min.js')}}"></script>
+    <script src="{{asset('assets\js\jquery.mixitup.min.js')}}"></script>
     <!-- Bootstrap v4.1.3 JavaScript -->
-    <script src="assets\js\bootstrap.min.js"></script>
+    <script src="{{asset('assets\js\bootstrap.min.js')}}"></script>
     <!-- Owl Carousel -->
-    <script src="assets\js\owlcarousel\owl.carousel.staff.js"></script>
+    <script src="{{asset('assets\js\owlcarousel\owl.carousel.staff.js')}}"></script>
     <!-- Custom JS -->
-    <script src="assets\js\custom-projects.js"></script>
+    <script src="{{asset('assets\js\custom-projects.js')}}"></script>
     <!-- Fixed Header -->
-    <script src="assets\js\classie.js"></script>
-    <script src="assets\js\cbpAnimatedHeader.js"></script>
-    <link rel="stylesheet" href="assets\js\fancybox\jquery.fancybox.min.css">
-    <script src="assets\js\fancybox\jquery.fancybox.min.js"></script>
+    <script src="{{asset('assets\js\classie.js')}}"></script>
+    <script src="{{asset('assets\js\cbpAnimatedHeader.js')}}"></script>
+    <link rel="stylesheet" href="{{asset('assets\js\fancybox\jquery.fancybox.min.css')}}">
+    <script src="{{asset('assets\js\fancybox\jquery.fancybox.min.js')}}"></script>
 </body>
 <!-- // Body -->
 

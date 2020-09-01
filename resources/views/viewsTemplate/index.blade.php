@@ -7,20 +7,20 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon -->
-    <link rel="icon" href="assets\imgs\favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{asset('assets\imgs\favicon.ico')}}" type="image/x-icon">
     <!-- Favicon -->
     <title>Architevo Builder : Construction Services</title>
     <!-- Bootstrap core CSS -->
-    <link href="assets\home\vendor\bootstrap\css\bootstrap.min.css" rel="stylesheet">
-    <link href="assets\home\vendor\fontawesome-free\css\all.min.css" rel="stylesheet" type="text/css">
-    <link href="assets\font-icons\material-design-iconic-font\css\materialdesignicons.min.css" rel="stylesheet"
+    <link href="{{asset('assets\home\vendor\bootstrap\css\bootstrap.min.css')}}" rel="stylesheet">
+    <link href="{{asset('assets\home\vendor\fontawesome-free\css\all.min.css')}}" rel="stylesheet" type="text/css">
+    <link href="{{asset('assets\font-icons\material-design-iconic-font\css\materialdesignicons.min.css')}}" rel="stylesheet"
         type="text/css">
-    <link href="assets\home\js\wow\animate.css" rel="stylesheet">
+    <link href="{{asset('assets\home\js\wow\animate.css')}}" rel="stylesheet">
     <!-- Custom styles for this template -->
-    <link href="assets\home\css\home2.css" rel="stylesheet">
+    <link href="{{asset('assets\home\css\home2.css')}}" rel="stylesheet">
     <!-- page css -->
-    <link href="assets\home\css\progressbar-page.css" rel="stylesheet">
-    <link href="assets\home\css\home2-responsive.css" rel="stylesheet">
+    <link href="{{asset('assets\home\css\progressbar-page.css')}}" rel="stylesheet">
+    <link href="{{asset('assets\home\css\home2-responsive.css')}}" rel="stylesheet">
 </head>
 
 <body class="loading">
@@ -47,7 +47,7 @@
             <div class="container">
                 <div class="row w-100">
                     <div class="col-md-5"><a class="navbar-brand" href="{{ route('index') }}"> <img
-                                src="assets\imgs\logo.png" alt="" title="" class="img-fluid"> </a> </div>
+                                src="{{asset('assets\imgs\logo.png')}}" alt="" title="" class="img-fluid"> </a> </div>
                     <div class="col-md-7">
                         <div class="row">
                             <div class="col-md-9 p-0 top-css">
@@ -186,9 +186,9 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 text-center mb-4">
                         <div class="position-relative rounded overflow-hidden bg-dark box-section"> <img
-                                src="assets\imgs\home2\services\services1.jpg" class="img-fluid" alt="" title="">
+                                src="{{asset('assets\imgs\home2\services\services1.jpg')}}" class="img-fluid" alt="" title="">
                             <div class="position-absolute box">
-                                <div class="icon-css"><img src="assets\imgs\home2\blueprint.svg" width="45" alt=""
+                                <div class="icon-css"><img src="{{asset('assets\imgs\home2\blueprint.svg')}}" width="45" alt=""
                                         title=""></div>
                                 <h4>contracting</h4>
                                 <p>Ut at bibendum quam pharetra arcu sodales.</p>
@@ -197,9 +197,9 @@
                     </div>
                     <div class="col-lg-4 col-md-6 text-center mb-4">
                         <div class="position-relative rounded overflow-hidden bg-dark box-section"> <img
-                                src="assets\imgs\home2\services\services2.jpg" class="img-fluid" alt="" title="">
+                                src="{{asset('assets\imgs\home2\services\services2.jpg')}}" class="img-fluid" alt="" title="">
                             <div class="position-absolute box">
-                                <div class="icon-css"><img src="assets\imgs\home2\brickwall.svg" width="45" alt=""
+                                <div class="icon-css"><img src="{{asset('assets\imgs\home2\brickwall.svg')}}" width="45" alt=""
                                         title=""></div>
                                 <h4>construction</h4>
                                 <p>Ut at bibendum quam magna eget elit dictum.</p>
@@ -208,9 +208,9 @@
                     </div>
                     <div class="col-lg-4 col-md-6 text-center mb-4">
                         <div class="position-relative rounded overflow-hidden bg-dark box-section"><img
-                                src="assets\imgs\home2\services\services3.jpg" class="img-fluid" alt="" title="">
+                                src="{{asset('assets\imgs\home2\services\services3.jpg')}}" class="img-fluid" alt="" title="">
                             <div class="position-absolute box">
-                                <div class="icon-css"><img src="assets\imgs\home2\construction.svg" width="45" alt=""
+                                <div class="icon-css"><img src="{{asset('assets\imgs\home2\construction.svg')}}" width="45" alt=""
                                         title=""></div>
                                 <h4>Repairment</h4>
                                 <p>Ut arcu sodales magna eget elit dictum.</p>
@@ -219,9 +219,9 @@
                     </div>
                     <div class="col-lg-4 col-md-6 text-center mb-4">
                         <div class="position-relative rounded overflow-hidden bg-dark box-section"> <img
-                                src="assets\imgs\home2\services\services4.jpg" class="img-fluid" alt="" title="">
+                                src="{{asset('assets\imgs\home2\services\services4.jpg')}}" class="img-fluid" alt="" title="">
                             <div class="position-absolute box">
-                                <div class="icon-css"><img src="assets\imgs\home2\engineer.svg" width="45" alt=""
+                                <div class="icon-css"><img src="{{asset('assets\imgs\home2\engineer.svg')}}" width="45" alt=""
                                         title=""></div>
                                 <h4>Home Making</h4>
                                 <p>Ut at bibendum quam pharetra arcudictum.</p>
@@ -230,9 +230,9 @@
                     </div>
                     <div class="col-lg-4 col-md-6 text-center mb-4">
                         <div class="position-relative rounded overflow-hidden bg-dark box-section"><img
-                                src="assets\imgs\home2\services\services5.jpg" class="img-fluid" alt="" title="">
+                                src="{{asset('assets\imgs\home2\services\services5.jpg')}}" class="img-fluid" alt="" title="">
                             <div class="position-absolute box">
-                                <div class="icon-css"><img src="assets\imgs\home2\helmet.svg" width="45" alt=""
+                                <div class="icon-css"><img src="{{asset('assets\imgs\home2\helmet.svg')}}" width="45" alt=""
                                         title=""></div>
                                 <h4>Electric Works</h4>
                                 <p>Pharetra arcu sodales magna eget elit dictum.</p>
@@ -241,9 +241,9 @@
                     </div>
                     <div class="col-lg-4 col-md-6 text-center mb-4">
                         <div class="position-relative rounded overflow-hidden bg-dark box-section"> <img
-                                src="assets\imgs\home2\services\services6.jpg" class="img-fluid" alt="" title="">
+                                src="{{asset('assets\imgs\home2\services\services6.jpg')}}" class="img-fluid" alt="" title="">
                             <div class="position-absolute box">
-                                <div class="icon-css"><img src="assets\imgs\home2\work.svg" width="45" alt="" title="">
+                                <div class="icon-css"><img src="{{asset('assets\imgs\home2\work.svg')}}" width="45" alt="" title="">
                                 </div>
                                 <h4>Other services</h4>
                                 <p>Ut at bibendum sodales magna eget elit dictum.</p>
@@ -263,73 +263,73 @@
                         <div class="col-lg-3 col-md-4  p-0">
                             <div class="img-hover-div">
                                 <div class="img-hover position-absolute"> <a data-fancybox="images"
-                                        href="assets\imgs\home2\portfolio\1-big.jpg"><i class="fa fa-search"
+                                        href="{{asset('assets\imgs\home2\portfolio\1-big.jpg')}}"><i class="fa fa-search"
                                             aria-hidden="true"></i></a> <a href="{{ route('projects') }}"><i class="fa fa-link"
                                             aria-hidden="true"></i></a> </div>
-                                <img src="assets\imgs\home2\portfolio\1.jpg" alt="" title="" class="img-fluid w-100">
+                                <img src="{{asset('assets\imgs\home2\portfolio\1.jpg')}}" alt="" title="" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4 p-0">
                             <div class="img-hover-div">
                                 <div class="img-hover position-absolute"><a data-fancybox="images"
-                                        href="assets\imgs\home2\portfolio\2-big.jpg"><i class="fa fa-search"
+                                        href="{{asset('assets\imgs\home2\portfolio\2-big.jpg')}}"><i class="fa fa-search"
                                             aria-hidden="true"></i></a> <a href="{{ route('projects') }}"><i class="fa fa-link"
                                             aria-hidden="true"></i></a></div>
-                                <img src="assets\imgs\home2\portfolio\2.jpg" alt="" title="" class="img-fluid w-100">
+                                <img src="{{asset('assets\imgs\home2\portfolio\2.jpg')}}" alt="" title="" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4 p-0">
                             <div class="img-hover-div">
                                 <div class="img-hover position-absolute"><a data-fancybox="images"
-                                        href="assets\imgs\home2\portfolio\3-big.jpg"><i class="fa fa-search"
+                                        href="{{asset('assets\imgs\home2\portfolio\3-big.jpg')}}"><i class="fa fa-search"
                                             aria-hidden="true"></i></a> <a href="{{ route('projects') }}"><i class="fa fa-link"
                                             aria-hidden="true"></i></a></div>
-                                <img src="assets\imgs\home2\portfolio\3.jpg" alt="" title="" class="img-fluid w-100">
+                                <img src="{{asset('assets\imgs\home2\portfolio\3.jpg')}}" alt="" title="" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4 p-0">
                             <div class="img-hover-div">
                                 <div class="img-hover position-absolute"><a data-fancybox="images"
-                                        href="assets\imgs\home2\portfolio\4-big.jpg"><i class="fa fa-search"
+                                        href="{{asset('assets\imgs\home2\portfolio\4-big.jpg')}}"><i class="fa fa-search"
                                             aria-hidden="true"></i></a> <a href="{{ route('projects') }}"><i class="fa fa-link"
                                             aria-hidden="true"></i></a></div>
-                                <img src="assets\imgs\home2\portfolio\4.jpg" alt="" title="" class="img-fluid w-100">
+                                <img src="{{asset('assets\imgs\home2\portfolio\4.jpg')}}" alt="" title="" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4 p-0">
                             <div class="img-hover-div">
                                 <div class="img-hover position-absolute"><a data-fancybox="images"
-                                        href="assets\imgs\home2\portfolio\5-big.jpg"><i class="fa fa-search"
+                                        href="{{asset('assets\imgs\home2\portfolio\5-big.jpg')}}"><i class="fa fa-search"
                                             aria-hidden="true"></i></a> <a href="{{ route('projects') }}"><i class="fa fa-link"
                                             aria-hidden="true"></i></a></div>
-                                <img src="assets\imgs\home2\portfolio\5.jpg" alt="" title="" class="img-fluid w-100">
+                                <img src="{{asset('assets\imgs\home2\portfolio\5.jpg')}}" alt="" title="" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4 p-0">
                             <div class="img-hover-div">
                                 <div class="img-hover position-absolute"><a data-fancybox="images"
-                                        href="assets\imgs\home2\portfolio\6-big.jpg"><i class="fa fa-search"
+                                        href="{{asset('assets\imgs\home2\portfolio\6-big.jpg')}}"><i class="fa fa-search"
                                             aria-hidden="true"></i></a> <a href="{{ route('projects') }}"><i class="fa fa-link"
                                             aria-hidden="true"></i></a></div>
-                                <img src="assets\imgs\home2\portfolio\6.jpg" alt="" title="" class="img-fluid w-100">
+                                <img src="{{asset('assets\imgs\home2\portfolio\6.jpg')}}" alt="" title="" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4 p-0">
                             <div class="img-hover-div">
                                 <div class="img-hover position-absolute"><a data-fancybox="images"
-                                        href="assets\imgs\home2\portfolio\7-big.jpg"><i class="fa fa-search"
+                                        href="{{asset('assets\imgs\home2\portfolio\7-big.jpg')}}"><i class="fa fa-search"
                                             aria-hidden="true"></i></a> <a href="{{ route('projects') }}"><i class="fa fa-link"
                                             aria-hidden="true"></i></a></div>
-                                <img src="assets\imgs\home2\portfolio\7.jpg" alt="" title="" class="img-fluid w-100">
+                                <img src="{{asset('assets\imgs\home2\portfolio\7.jpg')}}" alt="" title="" class="img-fluid w-100">
                             </div>
                         </div>
                         <div class="col-lg-3 col-md-4 p-0">
                             <div class="img-hover-div">
                                 <div class="img-hover position-absolute"><a data-fancybox="images"
-                                        href="assets\imgs\home2\portfolio\8-big.jpg"><i class="fa fa-search"
+                                        href="{{asset('assets\imgs\home2\portfolio\8-big.jpg')}}"><i class="fa fa-search"
                                             aria-hidden="true"></i></a> <a href="{{ route('projects') }}"><i class="fa fa-link"
                                             aria-hidden="true"></i></a></div>
-                                <img src="assets\imgs\home2\portfolio\8.jpg" alt="" title="" class="img-fluid w-100">
+                                <img src="{{asset('assets\imgs\home2\portfolio\8.jpg')}}" alt="" title="" class="img-fluid w-100">
                             </div>
                         </div>
                     </div>
@@ -355,7 +355,7 @@
                         <h3>Fast And Warranty Work</h3>
                         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum sit amet dolor sed.</p>
                     </div>
-                    <div class="col-md-4 text-center"><img src="assets\imgs\home2\about-home.png" alt="" title=""
+                    <div class="col-md-4 text-center"><img src="{{asset('assets\imgs\home2\about-home.png')}}" alt="" title=""
                             class="img-fluid"></div>
                     <div class="col-md-4"> <i class="fa fa-comment icon-css-2" aria-hidden="true"></i>
                         <h3>Support 24/7</h3>
@@ -383,7 +383,7 @@
                                     <p class="oswald text-white">Lorem Ipsum ist ein einfacher Demo-Text für die Print-
                                         und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard
                                         Demo.</p>
-                                    <div class="mr-3 left-text"><img src="assets\imgs\home\customers-1.jpg" alt=""
+                                    <div class="mr-3 left-text"><img src="{{asset('assets\imgs\home\customers-1.jpg')}}" alt=""
                                             title="" class="rounded-circle" width="50"></div>
                                     <div class="left-text">
                                         <h4 class="text-white">Austin Daniels </h4>
@@ -396,7 +396,7 @@
                                     <p class="oswald text-white">Lorem Ipsum ist ein einfacher Demo-Text für die Print-
                                         und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard
                                         Demo.</p>
-                                    <div class="mr-3 left-text"><img src="assets\imgs\home\customers-2.jpg" alt=""
+                                    <div class="mr-3 left-text"><img src="{{asset('assets\imgs\home\customers-2.jpg')}}" alt=""
                                             title="" class="rounded-circle" width="50"></div>
                                     <div class="left-text">
                                         <h4 class="text-white">Carolyn Rogers</h4>
@@ -409,7 +409,7 @@
                                     <p class="oswald text-white">Lorem Ipsum ist ein einfacher Demo-Text für die Print-
                                         und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard
                                         Demo.</p>
-                                    <div class="mr-3 left-text"><img src="assets\imgs\home\customers-3.jpg" alt=""
+                                    <div class="mr-3 left-text"><img src="{{asset('assets\imgs\home\customers-3.jpg')}}" alt=""
                                             title="" class="rounded-circle" width="50"></div>
                                     <div class="left-text">
                                         <h4 class="text-white">Benjamin Carter</h4>
@@ -422,7 +422,7 @@
                                     <p class="oswald text-white">Lorem Ipsum ist ein einfacher Demo-Text für die Print-
                                         und Schriftindustrie. Lorem Ipsum ist in der Industrie bereits der Standard
                                         Demo.</p>
-                                    <div class="mr-3 left-text"><img src="assets\imgs\home\customers-3.jpg" alt=""
+                                    <div class="mr-3 left-text"><img src="{{asset('assets\imgs\home\customers-3.jpg')}}" alt=""
                                             title="" class="rounded-circle" width="50"></div>
                                     <div class="left-text">
                                         <h4 class="text-white">Benjamin Carter</h4>
@@ -453,7 +453,7 @@
                         <div class="news-boder">
                             <div class="position-relative">
                                 <div class="date-1"><i class='far fa-clock'></i> 11 Jan, 2020</div>
-                                <img src="assets\imgs\home2\news\img-1.jpg" alt="" title="" class="img-fluid w-100">
+                                <img src="{{asset('assets\imgs\home2\news\img-1.jpg')}}" alt="" title="" class="img-fluid w-100">
                             </div>
                             <h2>Nulla vehicula magna maximus.</h2>
                             <p>Nam tincidunt imperdiet consectet lobort lorem tristique vel. Proin rhoncus augue dui,
@@ -465,7 +465,7 @@
                         <div class="news-boder">
                             <div class="position-relative">
                                 <div class="date-1"><i class='far fa-clock'></i> 10 Jan, 2020</div>
-                                <img src="assets\imgs\home2\news\img-2.jpg" class="img-fluid w-100" alt="" title="">
+                                <img src="{{asset('assets\imgs\home2\news\img-2.jpg')}}" class="img-fluid w-100" alt="" title="">
                             </div>
                             <h2>Nulla vehicula magna maximus.</h2>
                             <p>Nam tincidunt imperdiet consectet lobort lorem tristique vel. Proin rhoncus augue dui,
@@ -477,7 +477,7 @@
                         <div class="news-boder">
                             <div class="position-relative">
                                 <div class="date-1"><i class='far fa-clock'></i> 15 Jan, 2020</div>
-                                <img src="assets\imgs\home2\news\img-3.jpg" class="img-fluid w-100" alt="" title="">
+                                <img src="{{asset('assets\imgs\home2\news\img-3.jpg')}}" class="img-fluid w-100" alt="" title="">
                             </div>
                             <h2>Nulla vehicula magna maximus.</h2>
                             <p>Nam tincidunt imperdiet consectet lobort lorem tristique vel. Proin rhoncus augue dui,
@@ -489,7 +489,7 @@
                         <div class="news-boder">
                             <div class="position-relative">
                                 <div class="date-1"><i class='far fa-clock'></i> 19 Jan, 2020</div>
-                                <img src="assets\imgs\home2\news\img-4.jpg" class="img-fluid w-100" alt="" title="">
+                                <img src="{{asset('assets\imgs\home2\news\img-4.jpg')}}" class="img-fluid w-100" alt="" title="">
                             </div>
                             <h2>Nulla vehicula magna maximus.</h2>
                             <p>Nam tincidunt imperdiet consectet lobort lorem tristique vel. Proin rhoncus augue dui,
@@ -523,16 +523,16 @@
                     <h2 class="text-center text-uppercase pt-0 mb-4">Our <span> Clients</span></h2>
                 </div>
                 <div id="owl-demo" class="owl-carousel owl-carousel-2">
-                    <div class="item"><img src="assets\imgs\logo-carousel\logo1.png" alt=""></div>
-                    <div class="item"><img src="assets\imgs\logo-carousel\logo2.png" alt=""></div>
-                    <div class="item"><img src="assets\imgs\logo-carousel\logo3.png" alt=""></div>
-                    <div class="item"><img src="assets\imgs\logo-carousel\logo4.png" alt=""></div>
-                    <div class="item"><img src="assets\imgs\logo-carousel\logo5.png" alt=""></div>
-                    <div class="item"><img src="assets\imgs\logo-carousel\logo1.png" alt=""></div>
-                    <div class="item"><img src="assets\imgs\logo-carousel\logo2.png" alt=""></div>
-                    <div class="item"><img src="assets\imgs\logo-carousel\logo3.png" alt=""></div>
-                    <div class="item"><img src="assets\imgs\logo-carousel\logo4.png" alt=""></div>
-                    <div class="item"><img src="assets\imgs\logo-carousel\logo5.png" alt=""></div>
+                    <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo1.png')}}" alt=""></div>
+                    <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo2.png')}}" alt=""></div>
+                    <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo3.png')}}" alt=""></div>
+                    <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo4.png')}}" alt=""></div>
+                    <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo5.png')}}" alt=""></div>
+                    <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo1.png')}}" alt=""></div>
+                    <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo2.png')}}" alt=""></div>
+                    <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo3.png')}}" alt=""></div>
+                    <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo4.png')}}" alt=""></div>
+                    <div class="item"><img src="{{asset('assets\imgs\logo-carousel\logo5.png')}}" alt=""></div>
                 </div>
             </div>
         </div>
@@ -656,8 +656,8 @@
                                     </div>
                                 </div>
                                 <div class="form-group">
-                                    <input value="SUBMIT" onclick="return ajaxmailrequest();" class="btn btn-clear"
-                                        type="button">
+                                    {{-- <input value="SUBMIT" onclick="return ajaxmailrequest();" class="btn btn-clear" type="button"> --}}
+                                    <input value="SUBMIT" onclick="" class="btn btn-clear" type="button">
                                     <!--<button class="btn btn-clear">SUBMIT</button>-->
                                     <button class="btn btn-clear blue-btn">Reset</button>
                                     <div class="loader2"></div>
@@ -671,23 +671,23 @@
         </div>
     </div>
     <!-- Form Script -->
-    <script src="assets\js\ajax.js"></script>
-    <script src="assets\js\formValidation.js"></script>
+    <script src="{{asset('assets\js\ajax.js')}}"></script>
+    <script src="{{asset('assets\js\formValidation.js')}}"></script>
     <!-- Bootstrap core JavaScript -->
-    <script src="assets\home\vendor\jquery\jquery.min.js"></script>
-    <script src="assets\home\vendor\bootstrap\js\bootstrap.bundle.min.js"></script>
+    <script src="{{asset('assets\home\vendor\jquery\jquery.min.js')}}"></script>
+    <script src="{{asset('assets\home\vendor\bootstrap\js\bootstrap.bundle.min.js')}}"></script>
     <!-- Owl Carousel -->
-    <script src="assets\js\owlcarousel\owl.carousel.min.js"></script>
+    <script src="{{asset('assets\js\owlcarousel\owl.carousel.min.js')}}"></script>
     <!--wow-->
-    <script src="assets\home\js\wow\wow.js"></script>
-    <script src="assets\home\js\wow\page.js"></script>
+    <script src="{{asset('assets\home\js\wow\wow.js')}}"></script>
+    <script src="{{asset('assets\home\js\wow\page.js')}}"></script>
     <!--fancybox-->
-    <link rel="stylesheet" href="assets\home\js\fancybox\jquery.fancybox.min.css">
-    <script src="assets\home\js\fancybox\jquery.fancybox.min.js"></script>
+    <link rel="stylesheet" href="{{asset('assets\home\js\fancybox\jquery.fancybox.min.css')}}">
+    <script src="{{asset('assets\home\js\fancybox\jquery.fancybox.min.js')}}"></script>
     <!-- fix-nav -->
-    <script src="assets\home\js\fix-nav.js"></script>
+    <script src="{{asset('assets\home\js\fix-nav.js')}}"></script>
     <!--page-->
-    <script src="assets\home\js\page.js"></script>
+    <script src="{{asset('assets\home\js\page.js')}}"></script>
 </body>
 
 </html>

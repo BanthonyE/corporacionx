@@ -14,7 +14,7 @@
                 <div class="home-builder-page-title">
                     <h1>Blogs</h1>
                     <h1 class="titlecolor">Left Sidebar</h1>
-                    <img src="{!! asset('assets\imgs\linew.png') !!}" alt="">
+                    <img src="{{ asset('assets\imgs\linew.png') }}" alt="">
                     <ol class="breadcrumb">
                         <li><a href="{{ route('index') }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                         <li class="active">Blog V3</li>
@@ -72,7 +72,7 @@
                         <div class="border-orange"></div>
                         <div class="clearfix"></div>
                         <div class="">
-                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="{!! asset('assets\imgs\blog-images\a.jpg') !!}"
+                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="{{ asset('assets\imgs\blog-images\a.jpg') }}"
                                     class="img-fluid" alt=""> </div>
                             <div class="col-md-7 col-sm-8 col-xs-8 no-padding-right"> <a href="{{ route('blog-details') }}">
                                     <h4>Neque porro quisquam est qui dolorem</h4>
@@ -80,7 +80,7 @@
                                 <p>March 31, 2020</p>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="{!! asset('assets\imgs\blog-images\b.jpg') !!}"
+                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="{{ asset('assets\imgs\blog-images\b.jpg') }}"
                                     class="img-fluid" alt=""> </div>
                             <div class="col-md-7 col-sm-8 col-xs-8 no-padding-right"> <a href="{{ route('blog-details') }}">
                                     <h4>Neque porro quisquam est qui dolorem</h4>
@@ -88,7 +88,7 @@
                                 <p>March 31, 2020</p>
                             </div>
                             <div class="clearfix"></div>
-                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="{!! asset('assets\imgs\blog-images\c.jpg') !!}"
+                            <div class="col-md-5 col-sm-4 col-xs-4 no-padding"> <img src="{{ asset('assets\imgs\blog-images\c.jpg') }}"
                                     class="img-fluid" alt=""> </div>
                             <div class="col-md-7 col-sm-8 col-xs-8 no-padding-right"> <a href="{{ route('blog-details') }}">
                                     <h4>Neque porro quisquam est qui dolorem</h4>
@@ -158,7 +158,7 @@
                     <li>|</li>
                     <li>No Comments</li>
                 </ul>
-                <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-1.jpg') !!}" alt="" title="" class="img-fluid">
+                <div class="img-cont"><img src="{{ asset('assets\imgs\blog-images\blog-1.jpg') }}" alt="" title="" class="img-fluid">
                 </div>
                 <div class="blog-text">
                     <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel
@@ -188,7 +188,7 @@
                     <li>|</li>
                     <li>No Comments</li>
                 </ul>
-                <div class="img-cont"><img src="{!! asset('assets\imgs\blog-images\blog-2.jpg') !!}" alt="" title="" class="img-fluid">
+                <div class="img-cont"><img src="{{ asset('assets\imgs\blog-images\blog-2.jpg') }}" alt="" title="" class="img-fluid">
                 </div>
                 <div class="blog-text">
                     <p>Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel

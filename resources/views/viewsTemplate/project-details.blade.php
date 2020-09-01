@@ -9,10 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon -->
-    <link rel="icon" href="assets\imgs\favicon.ico" type="image/x-icon">
+    <link rel="icon" href="{{asset('assets\imgs\favicon.ico')}}" type="image/x-icon">
     <title>Architevo Builder : Construction Services</title>
     <!-- Template CSS -->
-    <link href="assets\css\default.css" rel="stylesheet">
+    <link href="{{asset('assets\css\default.css')}}" rel="stylesheet">
 </head>
 <!-- //  Head-->
 
@@ -27,7 +27,7 @@
                 <div class="home-builder-page-title">
                     <h1>Project</h1>
                     <h1 class="titlecolor">Details</h1>
-                    <img src="assets\imgs\linew.png" alt="">
+                    <img src="{{asset('assets\imgs\linew.png')}}" alt="">
                     <ol class="breadcrumb">
                         <li><a href="{{ route('index') }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                         <li class="active">Project Details </li>
@@ -42,7 +42,7 @@
 <div class="content-section about-page-section">
     <div class="container">
         <h2 class="text-center text-uppercase">Project <span class="orange-txt">Details</span></h2>
-        <div class="border-creative text-center"><img src="assets\imgs\borders\border.png" alt=""></div>
+        <div class="border-creative text-center"><img src="{{asset('assets\imgs\borders\border.png')}}" alt=""></div>
         <div class="project-details">
             <div class="row">
                 <div class="col-lg-6 col-md-12">
@@ -73,22 +73,22 @@
                         style="display:block;position:relative;max-width:100%;margin:0px 0 93px;">
                         <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;width:100%;">
                             <ul class="amazingslider-slides" style="display:none;">
-                                <li><img src="assets\imgs\blog-images\a.jpg"> </li>
-                                <li><img src="assets\imgs\blog-images\b.jpg"> </li>
-                                <li><img src="assets\imgs\blog-images\c.jpg"> </li>
-                                <li><img src="assets\imgs\d.jpg"> </li>
-                                <li><img src="assets\imgs\blog-images\a.jpg"> </li>
-                                <li><img src="assets\imgs\blog-images\b.jpg"> </li>
-                                <li><img src="assets\imgs\blog-images\c.jpg"> </li>
+                                <li><img src="{{asset('assets\imgs\blog-images\a.jpg')}}"> </li>
+                                <li><img src="{{asset('assets\imgs\blog-images\b.jpg')}}"> </li>
+                                <li><img src="{{asset('assets\imgs\blog-images\c.jpg')}}"> </li>
+                                <li><img src="{{asset('assets\imgs\d.jpg')}}"> </li>
+                                <li><img src="{{asset('assets\imgs\blog-images\a.jpg')}}"> </li>
+                                <li><img src="{{asset('assets\imgs\blog-images\b.jpg')}}"> </li>
+                                <li><img src="{{asset('assets\imgs\blog-images\c.jpg')}}"> </li>
                             </ul>
                             <ul class="amazingslider-thumbnails" style="display:none;">
-                                <li><img src="assets\imgs\blog-images\a.jpg"></li>
-                                <li><img src="assets\imgs\blog-images\b.jpg"></li>
-                                <li><img src="assets\imgs\blog-images\c.jpg"></li>
-                                <li><img src="assets\imgs\d.jpg"></li>
-                                <li><img src="assets\imgs\blog-images\a.jpg"></li>
-                                <li><img src="assets\imgs\blog-images\b.jpg"></li>
-                                <li><img src="assets\imgs\blog-images\c.jpg"></li>
+                                <li><img src="{{asset('assets\imgs\blog-images\a.jpg')}}"></li>
+                                <li><img src="{{asset('assets\imgs\blog-images\b.jpg')}}"></li>
+                                <li><img src="{{asset('assets\imgs\blog-images\c.jpg')}}"></li>
+                                <li><img src="{{asset('assets\imgs\d.jpg')}}"></li>
+                                <li><img src="{{asset('assets\imgs\blog-images\a.jpg')}}"></li>
+                                <li><img src="{{asset('assets\imgs\blog-images\b.jpg')}}"></li>
+                                <li><img src="{{asset('assets\imgs\blog-images\c.jpg')}}"></li>
                             </ul>
                             <div class="amazingslider-engine"><a href="http://amazingslider.com"
                                     title="Responsive Slider jQuery">Responsive Slider jQuery</a></div>
@@ -103,13 +103,13 @@
         <hr>
         <h2 class="text-center text-uppercase font-second-head">Related <span class="orange-txt">Projects</span>
         </h2>
-        <div class="border-creative text-center"><img src="assets\imgs\borders\border.png" alt=""></div>
+        <div class="border-creative text-center"><img src="{{asset('assets\imgs\borders\border.png')}}" alt=""></div>
         <div class="row other-row">
             <div class="owl-carousel owl-theme">
                 <div class="item">
                     <div class="portfolio">
                         <div class="grid-2">
-                            <figure class="effect-jazz"> <img src="assets\imgs\portfolio\recent\item3.png"
+                            <figure class="effect-jazz"> <img src="{{asset('assets\imgs\portfolio\recent\item3.png')}}"
                                     class="img-fluid" alt="img25">
                                 <figcaption>
                                     <h2><i class="fa fa-search" aria-hidden="true"></i></h2>
@@ -127,7 +127,7 @@
                 <div class="item">
                     <div class="portfolio">
                         <div class="grid-2">
-                            <figure class="effect-jazz"> <img src="assets\imgs\portfolio\recent\item1.png"
+                            <figure class="effect-jazz"> <img src="{{asset('assets\imgs\portfolio\recent\item1.png')}}"
                                     class="img-fluid" alt="img25">
                                 <figcaption>
                                     <h2><i class="fa fa-search" aria-hidden="true"></i></h2>
@@ -145,7 +145,7 @@
                 <div class="item">
                     <div class="portfolio">
                         <div class="grid-2">
-                            <figure class="effect-jazz"> <img src="assets\imgs\portfolio\recent\item2.png"
+                            <figure class="effect-jazz"> <img src="{{asset('assets\imgs\portfolio\recent\item2.png')}}"
                                     class="img-fluid" alt="img25">
                                 <figcaption>
                                     <h2><i class="fa fa-search" aria-hidden="true"></i></h2>
@@ -163,7 +163,7 @@
                 <div class="item">
                     <div class="portfolio">
                         <div class="grid-2">
-                            <figure class="effect-jazz"> <img src="assets\imgs\portfolio\recent\item4.png"
+                            <figure class="effect-jazz"> <img src="{{asset('assets\imgs\portfolio\recent\item4.png')}}"
                                     class="img-fluid" alt="img25">
                                 <figcaption>
                                     <h2><i class="fa fa-search" aria-hidden="true"></i></h2>
@@ -181,7 +181,7 @@
                 <div class="item">
                     <div class="portfolio">
                         <div class="grid-2">
-                            <figure class="effect-jazz"> <img src="assets\imgs\portfolio\recent\item3.png"
+                            <figure class="effect-jazz"> <img src="{{asset('assets\imgs\portfolio\recent\item3.png')}}"
                                     class="img-fluid" alt="img25">
                                 <figcaption>
                                     <h2><i class="fa fa-search" aria-hidden="true"></i></h2>
@@ -199,7 +199,7 @@
                 <div class="item">
                     <div class="portfolio">
                         <div class="grid-2">
-                            <figure class="effect-jazz"> <img src="assets\imgs\portfolio\recent\item1.png"
+                            <figure class="effect-jazz"> <img src="{{asset('assets\imgs\portfolio\recent\item1.png')}}"
                                     class="img-fluid" alt="img25">
                                 <figcaption>
                                     <h2><i class="fa fa-search" aria-hidden="true"></i></h2>
@@ -217,7 +217,7 @@
                 <div class="item">
                     <div class="portfolio">
                         <div class="grid-2">
-                            <figure class="effect-jazz"> <img src="assets\imgs\portfolio\recent\item2.png"
+                            <figure class="effect-jazz"> <img src="{{asset('assets\imgs\portfolio\recent\item2.png')}}"
                                     class="img-fluid" alt="img25">
                                 <figcaption>
                                     <h2><i class="fa fa-search" aria-hidden="true"></i></h2>
@@ -235,7 +235,7 @@
                 <div class="item">
                     <div class="portfolio">
                         <div class="grid-2">
-                            <figure class="effect-jazz"> <img src="assets\imgs\portfolio\recent\item4.png"
+                            <figure class="effect-jazz"> <img src="{{asset('assets\imgs\portfolio\recent\item4.png')}}"
                                     class="img-fluid" alt="img25">
                                 <figcaption>
                                     <h2><i class="fa fa-search" aria-hidden="true"></i></h2>
@@ -267,24 +267,24 @@
 @include('partials/footer')
 <!-- Jquery Section  -->
 <!-- Form Script -->
-<script src="assets\js\ajax.js"></script>
-<script src="assets\js\formValidation.js"></script>
+<script src="{{asset('assets\js\ajax.js')}}"></script>
+<script src="{{asset('assets\js\formValidation.js')}}"></script>
 <!-- JavaScript Library-->
-<script src="assets\js\jquery-2.2.4.min.js"></script>
-<script src="assets\js\jquery.mixitup.min.js"></script>
+<script src="{{asset('assets\js\jquery-2.2.4.min.js')}}"></script>
+<script src="{{asset('assets\js\jquery.mixitup.min.js')}}"></script>
 <!-- Bootstrap v4.1.3 JavaScript -->
-<script src="assets\js\bootstrap.min.js"></script>
+<script src="{{asset('assets\js\bootstrap.min.js')}}"></script>
 <!-- Amazing Slider -->
-<script src="assets\js\amazing-slider-plugin\thumb-slider\thumb-slider-jquery.js"></script>
-<link rel="stylesheet" type="text/css" href="assets\js\amazing-slider-plugin\thumb-slider\thumb-slider.css">
-<script src="assets\js\amazing-slider-plugin\thumb-slider\thumb-slider.js"></script>
+<script src="{{asset('assets\js\amazing-slider-plugin\thumb-slider\thumb-slider-jquery.js')}}"></script>
+<link rel="stylesheet" type="text/css" href="{{asset('assets\js\amazing-slider-plugin\thumb-slider\thumb-slider.css')}}">
+<script src="{{asset('assets\js\amazing-slider-plugin\thumb-slider\thumb-slider.js')}}"></script>
 <!-- Owl Carousel -->
-<script src="assets\js\owlcarousel\owl.carousel.staff.js"></script>
+<script src="{{asset('assets\js\owlcarousel\owl.carousel.staff.js')}}"></script>
 <!-- Custom JS -->
-<script src="assets\js\custom-projects.js"></script>
+<script src="{{asset('assets\js\custom-projects.js')}}"></script>
 <!-- Fixed header -->
-<script src="assets\js\classie.js"></script>
-<script src="assets\js\cbpAnimatedHeader.js"></script>
+<script src="{{asset('assets\js\classie.js')}}"></script>
+<script src="{{asset('assets\js\cbpAnimatedHeader.js')}}"></script>
 </body>
 <!-- // Body -->
 

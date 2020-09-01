@@ -14,7 +14,7 @@
                 <div class="home-builder-page-title">
                     <h1>Privacy</h1>
                     <h1 class="titlecolor">Policy</h1>
-                    <img src="{!! asset('assets\imgs\linew.png') !!}" alt="">
+                    <img src="{{ asset('assets\imgs\linew.png') }}" alt="">
                     <ol class="breadcrumb">
                         <li><a href="{{ route('index') }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a></li>
                         <li class="active">Privacy Policy</li>
@@ -29,7 +29,7 @@
 <div class="content-section services-main">
     <div class="container privacy-section"><br>
         <h2 class="text-center text-uppercase">Privacy <span class="orange-txt">Policy</span></h2>
-        <div class="border-creative text-center"><img src="{!! asset('assets\imgs\borders\border.png') !!}" alt=""></div>
+        <div class="border-creative text-center"><img src="{{ asset('assets\imgs\borders\border.png') }}" alt=""></div>
         <div class="col-xs-12">
             <p> Nullam id dolor id nibh ultricies vehicula ut id elit. Donec ullamcorper nulla non metus auctor
                 fringilla. Donec ullamcorper nulla non metus auctor fringilla. Morbi leo risus, porta ac consectetur ac,

@@ -9,10 +9,10 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <!-- Favicon -->
-    <link rel="icon" href="{!! asset('assets/imgs/favicon.ico') !!}" type="image/x-icon">
+    <link rel="icon" href="{{ asset('assets/imgs/favicon.ico') }}" type="image/x-icon">
     <title>Architevo Builder : Construction Services</title>
     <!-- Template CSS -->
-    <link href="{!! asset('assets/css/default.css') !!}" rel="stylesheet">
+    <link href="{{ asset('assets/css/default.css') }}" rel="stylesheet">
 </head>
 <!-- //  Head-->
 
@@ -28,7 +28,7 @@
                     <div class="home-builder-page-title">
                         <h1>Our</h1>
                         <h1 class="titlecolor">Services</h1>
-                        <img src="{!! asset('assets/imgs/linew.png') !!}" alt="">
+                        <img src="{{ asset('assets/imgs/linew.png') }}" alt="">
                         <ol class="breadcrumb">
                             <li><a href="{{ route('index') }}"><i class="fa fa-home" aria-hidden="true"></i> Home</a>
                             </li>
@@ -45,7 +45,7 @@
     <!-- Content Section -->
     <div class="content-section services-main">
         <h2 class="text-center text-uppercase">Our <span class="orange-txt">Services</span></h2>
-        <div class="border-creative text-center"><img src="{!! asset('assets/imgs/borders/border.png') !!}" alt=""></div>
+        <div class="border-creative text-center"><img src="{{ asset('assets/imgs/borders/border.png') }}" alt=""></div>
         <div class="container">
             <div class="row" id="what-we-do">
                 <div class="col-md-4 col-sm-6"> <i class="icon-Notepad"></i>
@@ -217,25 +217,25 @@
 
     <!-- Jquery Section  -->
     <!-- Form Script -->
-    <script src="{!! asset('assets/js/ajax.js') !!}"></script>
-    <script src="{!! asset('assets/js/formValidation.js') !!}"></script>
+    <script src="{{ asset('assets/js/ajax.js') }}"></script>
+    <script src="{{ asset('assets/js/formValidation.js') }}"></script>
     <!-- JavaScript Library -->
-    <script src="{!! asset('assets/js/jquery-2.2.4.min.js') !!}"></script>
+    <script src="{{ asset('assets/js/jquery-2.2.4.min.js') }}"></script>
     <!-- Bootstrap v4.1.3 JavaScript -->
-    <script src="{!! asset('assets/js/bootstrap.min.js') !!}"></script>
-    <link rel="stylesheet" href="{!! asset('assets/js/fancybox/jquery.fancybox.min.css') !!}" />
-    <script src="{!! asset('assets/js/fancybox/jquery.fancybox.min.js') !!}"></script>
-    <script src="{!! asset('assets/js/particles.js') !!}"></script>
-    <script src="{!! asset('assets/js/part-int.js') !!}"></script>
+    <script src="{{ asset('assets/js/bootstrap.min.js') }}"></script>
+    <link rel="stylesheet" href="{{ asset('assets/js/fancybox/jquery.fancybox.min.css') }}" />
+    <script src="{{ asset('assets/js/fancybox/jquery.fancybox.min.js') }}"></script>
+    <script src="{{ asset('assets/js/particles.js') }}"></script>
+    <script src="{{ asset('assets/js/part-int.js') }}"></script>
     <!-- Owl Carousel -->
-    <script src="{!! asset('assets/js/owl-car-new/owl-carousel.js') !!}"></script>
+    <script src="{{ asset('assets/js/owl-car-new/owl-carousel.js') }}"></script>
     <!-- Owl Carousel -->
-    <script src="{!! asset('assets/js/owlcarousel/owl.carousel.staff.js') !!}"></script>
+    <script src="{{ asset('assets/js/owlcarousel/owl.carousel.staff.js') }}"></script>
     <!-- Custom JS-->
-    <script src="{!! asset('assets/js/custom-services.js') !!}"></script>
+    <script src="{{ asset('assets/js/custom-services.js') }}"></script>
     <!-- Fixed Header-->
-    <script src="{!! asset('assets/js/classie.js') !!}"></script>
-    <script src="{!! asset('assets/js/cbpAnimatedHeader.js') !!}"></script>
+    <script src="{{ asset('assets/js/classie.js') }}"></script>
+    <script src="{{ asset('assets/js/cbpAnimatedHeader.js') }}"></script>
 </body>
 <!-- // Body -->
 
